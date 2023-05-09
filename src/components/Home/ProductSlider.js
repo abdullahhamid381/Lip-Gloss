@@ -15,38 +15,39 @@ const ProductSlider = () => {
     return (
 
         <div className="product-slider-parent">
-<Link to="/products" style={{ color: "black" }}>
-            <Swiper
-                slidesPerView={3}
-                spaceBetween={30}
-              
-               
             
-                rewind={true}
-                navigation={true}
-                modules={[ Pagination, Navigation]}
-                className="mySwiper"
-            >
-                {productslider.map((item) => {
-                    return (
-                        
+            <Link to="/products" style={{ color: "black" }}>
+                <Swiper
+                    slidesPerView={3}
+                    spaceBetween={30}
+
+
+
+                    rewind={true}
+                    navigation={true}
+                    modules={[Pagination, Navigation]}
+                    className="mySwiper"
+                >
+                    {productslider.map((item) => {
+                        return (
+
                             <div>
                                 <SwiperSlide>
                                     <div >
                                         <img src={item.img} alt="" />
                                     </div>
                                     <div>
-                                        <p  className="title">{item.title}</p>
+                                        <p className="title">{item.title}</p>
                                     </div>
                                     <div>
                                         <h5 className="price">{item.price}</h5>
                                     </div>
                                 </SwiperSlide>
                             </div>
-                       
-                    );
-                })}
-            </Swiper>
+
+                        );
+                    })}
+                </Swiper>
             </Link>
         </div>
 
