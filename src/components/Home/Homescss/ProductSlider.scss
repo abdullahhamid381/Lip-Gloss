@@ -1,0 +1,32 @@
+.product-slider-parent{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 40px 0;
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+      
+      .swiper-slide {
+      .title{
+        margin: 0;
+        text-align: center;
+        font-size: 13px;
+      }
+      .price{
+        text-align: center;
+        font-size: 13px;
+        font-weight: bolder;
+      }
+      }
+      
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+     
+      
+}

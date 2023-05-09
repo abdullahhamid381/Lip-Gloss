@@ -24,9 +24,11 @@ export default function App() {
       <div>
 
       </div>
-      <div className="logo">
+    <Link to='/'>
+    <div className="logo">
         <img src="./images/logo.jpg" alt="" />
       </div>
+    </Link>
       
       <div className="search-cart-parent">
         <div className="search-parent">

@@ -1,3 +1,6 @@
+import {BsPencil} from 'react-icons/bs'
+import {HiOutlineCake} from 'react-icons/hi'
+import {AiFillHeart} from 'react-icons/ai'
 export default [
   {
     id: 1,
@@ -35,3 +38,51 @@ export default [
     quantity: 1,
   },
 ];
+
+export const party = [
+  {
+    icon:<BsPencil/>,
+    title:'DIY',
+    para:'Created for you with endless possibilties',
+    id:'border',
+  },
+  {
+    icon:<HiOutlineCake/>,
+    title:'IT,S YOUR PARTY',
+    para:'Invite your favorite besties',
+    id:'border',
+  },
+  {
+    icon:<AiFillHeart/>,
+    title:'PURITY',
+ 
+    para:'Natural and chemical-free ingredients',
+  },
+]
+export const productslider=[
+  {
+    img:'./images/firstp.webp',
+    title:'Smudge Me Not Collection',
+    price:'$20.00',
+
+  },
+  {
+    img:'./images/secondp.webp',
+    title:'Smudge Me Not Collection',
+    price:'$20.00',
+  },
+  {
+    img:'./images/thirdp.webp',
+    title:'Smudge Me Not Collection',
+    price:'$20.00',
+
+  },
+  {
+    img:'./images/fourthp.webp',
+    title:'Smudge Me Not Collection',
+    price:'$20.00',
+
+  },
+ 
+
+]
