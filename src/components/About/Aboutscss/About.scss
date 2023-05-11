@@ -1,0 +1,12 @@
+@import '../../Media/media.scss';
+.about-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    @include lg{
+        grid-template-columns: 1fr;
+    }
+}

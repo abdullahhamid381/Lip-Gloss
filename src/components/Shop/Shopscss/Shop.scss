@@ -1,3 +1,4 @@
+@import '../../Media/media.scss';
 .product-shop-parent{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -5,6 +6,9 @@
     width: 100%;
     margin: auto;
     
+    @include lg{
+      grid-template-columns: 1fr;
+    }
    
       img{
         width: 100%;

@@ -6,7 +6,10 @@ import Navbar from '../Reuseable/Navbar'
 import Navlink from '../Reuseable/Navlink'
 import Footer from '../Reuseable/Footer'
 import { useSelector } from 'react-redux'
+import { useNavigate} from 'react-router-dom'
 const Shop = () => {
+    
+    const navigate =  useNavigate()
     const items = useSelector((state) => state.allCart.items);
     return (
 
@@ -24,21 +27,23 @@ const Shop = () => {
 
                 {items.map((item) => {
                     return (
-                        <Link to="/products" style={{ color: "black" }}>
-                            <div>
+                        
+                            <div onClick={()=> navigate(`/product/${item.id}`)}>
 
                                 <div >
                                     <img src={item.img} alt="" />
                                 </div>
-                                <div>
+                              <div style={{margin:'10px 0'}}>
+                              <div>
                                     <p className="title">{item.title}</p>
                                 </div>
                                 <div>
                                     <h5 className="price">{item.price}</h5>
                                 </div>
+                              </div>
 
                             </div>
-                        </Link>
+                     
                     );
                 })}
 

@@ -45,12 +45,14 @@ const ProductSlider = ({data,title,para}) => {
                                     <div >
                                         <img src={img} alt="" />
                                     </div>
-                                    <div>
+                                  <div style={{margin:'10px 0'}}>
+                                  <div>
                                         <p className="title">{title}</p>
                                     </div>
                                     <div>
                                         <h5 className="price">{price}</h5>
                                     </div>
+                                  </div>
                                 </SwiperSlide>
                             </div>
 
