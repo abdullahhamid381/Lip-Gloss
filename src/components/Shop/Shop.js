@@ -5,7 +5,9 @@ import { productslider } from '../../productData'
 import Navbar from '../Reuseable/Navbar'
 import Navlink from '../Reuseable/Navlink'
 import Footer from '../Reuseable/Footer'
+import { useSelector } from 'react-redux'
 const Shop = () => {
+    const items = useSelector((state) => state.allCart.items);
     return (
 
         <div>
@@ -20,7 +22,7 @@ const Shop = () => {
 
 
 
-                {productslider.map((item) => {
+                {items.map((item) => {
                     return (
                         <Link to="/products" style={{ color: "black" }}>
                             <div>

@@ -7,6 +7,8 @@ import {
   decreaseItemQuantity,
   increaseItemQuantity,
 } from "../../features/cartSlice";
+import Navlink from "../Reuseable/Navlink";
+import Footer from "../Reuseable/Footer";
 
 const CartPage = () => {
   const { cart, totalQuantity, totalPrice } = useSelector(
@@ -23,6 +25,9 @@ const CartPage = () => {
     <div>
       <div>
         <Navbar/>
+      </div>
+      <div>
+        <Navlink/>
       </div>
       <section className="h-100 gradient-custom">
         <div className="container py-5">
@@ -79,7 +84,7 @@ const CartPage = () => {
                           </button>
 
                           <div className="form-outline">
-                            <input
+                            <input style={{textAlign:'center'}}
                               id="form1"
                               min="0"
                               name="quantity"
@@ -89,7 +94,7 @@ const CartPage = () => {
                               onChange={() => null}
                             />
                             <label className="form-label" for="form1">
-                              Quantity
+                            
                             </label>
                           </div>
 
@@ -147,6 +152,7 @@ const CartPage = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 };

@@ -1,129 +1,150 @@
-import {BsPencil} from 'react-icons/bs'
-import {HiOutlineCake} from 'react-icons/hi'
-import {AiFillHeart} from 'react-icons/ai'
-export default [
-  {
-    id: 1,
-    title: "Samsung Galaxy S7",
-    price: 700.0,
-    img: "https://res.cloudinary.com/drecbsopp/image/upload/v1627398399/samasung-galaxy-a51-8gb-8uh_tndbgv.jpg",
-    quantity: 1,
-  },
-  {
-    id: 2,
-    title: "Moto G5 Plus",
-    price: 600.0,
-    img: "https://res.cloudinary.com/drecbsopp/image/upload/v1627398477/MotoGPowerDual_2021_Reformatted_1_330x_wp8gve.png",
-    quantity: 1,
-  },
-  {
-    id: 3,
-    title: "Xiaomi Redmi Note 2",
-    price: 500.0,
-    img: "https://res.cloudinary.com/drecbsopp/image/upload/v1627398543/D7A7DA95-AEF8-228B-A2D2-A3FEBF237C33_y9p6wq.png",
-    quantity: 1,
-  },
-  {
-    id: 4,
-    title: "Nokia G20",
-    price: 400.0,
-    img: "https://res.cloudinary.com/drecbsopp/image/upload/v1627398698/nokia3_resize_md_qdw7bv.jpg",
-    quantity: 1,
-  },
-  {
-    id: 5,
-    title: "Apple i phone",
-    price: 4000.0,
-    img: "https://www.91-img.com/gallery_images_uploads/3/d/3df5ca6a9b470f715b085991144a5b76e70da975.JPG?tr=h-550,w-0,c-at_max",
-    quantity: 1,
-  },
-];
+import { BsPencil } from 'react-icons/bs'
+import { HiOutlineCake } from 'react-icons/hi'
+import { AiFillHeart } from 'react-icons/ai'
+import firstp from './components/assest/firstp.webp'
+import secondp from './components/assest/secondp.webp'
+import thirdp from './components/assest/thirdp.webp'
+
 
 export const party = [
   {
-    icon:<BsPencil/>,
-    title:'DIY',
-    para:'Created for you with endless possibilties',
-    id:'border',
+    icon: <BsPencil />,
+    title: 'DIY',
+    para: 'Created for you with endless possibilties',
+    id: 'border',
   },
   {
-    icon:<HiOutlineCake/>,
-    title:'IT,S YOUR PARTY',
-    para:'Invite your favorite besties',
-    id:'border',
+    icon: <HiOutlineCake />,
+    title: 'IT,S YOUR PARTY',
+    para: 'Invite your favorite besties',
+    id: 'border',
   },
   {
-    icon:<AiFillHeart/>,
-    title:'PURITY',
- 
-    para:'Natural and chemical-free ingredients',
+    icon: <AiFillHeart />,
+    title: 'PURITY',
+
+    para: 'Natural and chemical-free ingredients',
   },
 ]
-export const productslider=[
+export default [
   {
-    img:'./images/firstp.webp',
-    title:'Smudge Me Not Collection',
-    cata:'collection first',
-    price:'$20.00',
-    id:1,
+    img: firstp,
+    title: 'Smudge Me Not Collection',
+    cata: 'collection first',
+    price: 200,
+    id: 1,
+    quantity: 1,
+    stock: 'In Stock',
+    demand: 'ASK ABOUT THIS PRODUCT',
+    what: 'Peppermint-scented, luxuriously textured balm re-hydrates, pampers, and helps repair and nurture lips, transforming them to a new level of softness, smoothness and suppleness. It can be worn alone or over lip color for a dewy, more youthful-looking pout.',
+    pointfirst: 'Peppermint scented luxurious balm',
+    pointsecond: 'Help repair and nurture lips',
+    pointthird: 'Leaves lips soft, supple and smooth',
+    use: 'Usage: Apply liberally to lips morning and evening, and as often as needed throughout the day',
+    ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
+  },
+  {
+    img: secondp,
+    title: 'Smudge Me Not Collection',
+    cata: 'collection first',
+    price: 200,
+    id: 2,
+    quantity: 1,
+    stock: 'In Stock',
+    demand: 'ASK ABOUT THIS PRODUCT',
+    what: 'Peppermint-scented, luxuriously textured balm re-hydrates, pampers, and helps repair and nurture lips, transforming them to a new level of softness, smoothness and suppleness. It can be worn alone or over lip color for a dewy, more youthful-looking pout.',
+    pointfirst: 'Peppermint scented luxurious balm',
+    pointsecond: 'Help repair and nurture lips',
+    pointthird: 'Leaves lips soft, supple and smooth',
+    use: 'Usage: Apply liberally to lips morning and evening, and as often as needed throughout the day',
+    ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
 
   },
   {
-    img:'./images/firstp.webp',
-    title:'Smudge Me Not Collection',
-    cata:'collection first',
-    price:'$20.00',
-    id:1,
+    img: thirdp,
+    title: 'Smudge Me Not Collection',
+    quantity: 1,
+    price: 200,
+    id: 3,
+    cata: 'collection first',
+    stock: 'In Stock',
+    demand: 'ASK ABOUT THIS PRODUCT',
+    what: 'Peppermint-scented, luxuriously textured balm re-hydrates, pampers, and helps repair and nurture lips, transforming them to a new level of softness, smoothness and suppleness. It can be worn alone or over lip color for a dewy, more youthful-looking pout.',
+    pointfirst: 'Peppermint scented luxurious balm',
+    pointsecond: 'Help repair and nurture lips',
+    pointthird: 'Leaves lips soft, supple and smooth',
+    use: 'Usage: Apply liberally to lips morning and evening, and as often as needed throughout the day',
+    ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
+  },
+  {
+    img: './images/kk.webp',
+    title: 'Smudge Me Not Collection',
+    price: 200,
+    id: 4,
+    cata: 'collection second',
+    stock: 'In Stock',
+    demand: 'ASK ABOUT THIS PRODUCT',
+    what: 'Peppermint-scented, luxuriously textured balm re-hydrates, pampers, and helps repair and nurture lips, transforming them to a new level of softness, smoothness and suppleness. It can be worn alone or over lip color for a dewy, more youthful-looking pout.',
+    quantity: 1,
+    pointfirst: 'Peppermint scented luxurious balm',
+    pointsecond: 'Help repair and nurture lips',
+    pointthird: 'Leaves lips soft, supple and smooth',
+    use: 'Usage: Apply liberally to lips morning and evening, and as often as needed throughout the day',
+    ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
 
   },
   {
-    img:'./images/secondp.webp',
-    title:'Smudge Me Not Collection',
-    price:'$20.00',
-    id:2,
-    cata:'collection first',
+    img: './images/oo.webp',
+    title: 'Smudge Me Not Collection',
+    price: 200,
+    id: 5,
+    cata: 'collection second',
+    stock: 'In Stock',
+    demand: 'ASK ABOUT THIS PRODUCT',
+    quantity: 1,
+    what: 'Peppermint-scented, luxuriously textured balm re-hydrates, pampers, and helps repair and nurture lips, transforming them to a new level of softness, smoothness and suppleness. It can be worn alone or over lip color for a dewy, more youthful-looking pout.',
+    pointfirst: 'Peppermint scented luxurious balm',
+    pointsecond: 'Help repair and nurture lips',
+    pointthird: 'Leaves lips soft, supple and smooth',
+    use: 'Usage: Apply liberally to lips morning and evening, and as often as needed throughout the day',
+    ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
   },
+
   {
-    img:'./images/kk.webp',
-    title:'Smudge Me Not Collection',
-    price:'$20.00',
-    id:3,
-    cata:'collection second',
+    img: './images/ll.webp',
+    title: 'Smudge Me Not Collection',
+    price: 200,
+    id: 6,
+    stock: 'In Stock',
+    demand: 'ASK ABOUT THIS PRODUCT',
+    what: 'Peppermint-scented, luxuriously textured balm re-hydrates, pampers, and helps repair and nurture lips, transforming them to a new level of softness, smoothness and suppleness. It can be worn alone or over lip color for a dewy, more youthful-looking pout.',
+    pointfirst: 'Peppermint scented luxurious balm',
+    pointsecond: 'Help repair and nurture lips',
+    quantity: 1,
+    pointthird: 'Leaves lips soft, supple and smooth',
+    use: 'Usage: Apply liberally to lips morning and evening, and as often as needed throughout the day',
+    ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
+    cata: 'collection second',
   },
-  {
-    img:'./images/oo.webp',
-    title:'Smudge Me Not Collection',
-    price:'$20.00',
-    id:4,
-    cata:'collection second',
-  },
- 
-  {
-    img:'./images/ll.webp',
-    title:'Smudge Me Not Collection',
-    price:'$20.00',
-    id:4,
-    cata:'collection second',
-  },
- 
+
 
 ]
 
-export const team=[
+export const team = [
   {
-    img:'./images/6.webp',
-    h3:'GIRL,S NIGHT',
-    p:'Gather your girlfriends for a night of making lipsticks, partying, and fun. Escape the stress-filled everyday and relax in our colorful, casual atmosphere. Sip your favorite beverage and dance to the music while our experienced artists help you create your own personal masterpiece.',
+    img: './images/6.webp',
+    h3: 'GIRL,S NIGHT',
+    p: 'Gather your girlfriends for a night of making lipsticks, partying, and fun. Escape the stress-filled everyday and relax in our colorful, casual atmosphere. Sip your favorite beverage and dance to the music while our experienced artists help you create your own personal masterpiece.',
   },
   {
-    img:'./images/7.webp',
-    h3:'BIRTHDAY PARTIES',
-    p:'Set your creativity free with a new twist on fun. Our professional mixologists guides each guest to create a finished work of art they can proudly use and call their own.',
-    id:'second'
+    img: './images/7.webp',
+    h3: 'BIRTHDAY PARTIES',
+    p: 'Set your creativity free with a new twist on fun. Our professional mixologists guides each guest to create a finished work of art they can proudly use and call their own.',
+    id: 'second'
   },
   {
-    img:'./images/8.webp',
-    h3:'BRIDAL SHOWERS',
-    p:'Celebrate with your sisterhood and create a lasting memory before your big day. It,s the perfect plan for your wedding party. Mix and sip with your sisters in style. Book a private party or join one of ours.',
+    img: './images/8.webp',
+    h3: 'BRIDAL SHOWERS',
+    p: 'Celebrate with your sisterhood and create a lasting memory before your big day. It,s the perfect plan for your wedding party. Mix and sip with your sisters in style. Book a private party or join one of ours.',
   },
 ]

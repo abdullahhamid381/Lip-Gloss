@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { useNavigate } from "react-router-dom";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -11,10 +11,12 @@ import { useSelector, useDispatch } from "react-redux";
 import { Pagination, Navigation } from "swiper";
 import { Link } from "react-router-dom";
 import { productslider } from "../../productData";
+
 const ProductSlider = ({data,title,para}) => {
-    const items = useSelector((state) => state.allCart.items);
+    
 
     const dispatch = useDispatch();
+    const navigate =  useNavigate()
     return (
 
         <div className="product-slider-parent">
@@ -22,7 +24,7 @@ const ProductSlider = ({data,title,para}) => {
                 <h3>{title}</h3>
                 <p>{para}</p>
             </div>
-            <Link to="/products" style={{ color: "black" }}>
+         
                 <Swiper
                     slidesPerView={3}
                     spaceBetween={30}
@@ -35,18 +37,19 @@ const ProductSlider = ({data,title,para}) => {
                     className="mySwiper"
                 >
                     {data.map((item) => {
+                        const {id,title,img,price} = item
                         return (
 
-                            <div>
-                                <SwiperSlide>
+                            <div >
+                                <SwiperSlide onClick={()=> navigate(`/product/${id}`)}>
                                     <div >
-                                        <img src={item.img} alt="" />
+                                        <img src={img} alt="" />
                                     </div>
                                     <div>
-                                        <p className="title">{item.title}</p>
+                                        <p className="title">{title}</p>
                                     </div>
                                     <div>
-                                        <h5 className="price">{item.price}</h5>
+                                        <h5 className="price">{price}</h5>
                                     </div>
                                 </SwiperSlide>
                             </div>
@@ -54,7 +57,7 @@ const ProductSlider = ({data,title,para}) => {
                         );
                     })}
                 </Swiper>
-            </Link>
+           
         </div>
 
     );

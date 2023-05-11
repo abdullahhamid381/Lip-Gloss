@@ -62,7 +62,7 @@ const Navlink = () => {
         <a href="#">RESERVE SEAT</a>
       </li>
       <li>
-        <a href="#">ABOUT US</a>
+        <Link to='/about'>ABOUT US</Link>
       </li>
       <li>
         <a href="#">FRANCHISE</a>

@@ -1,3 +1,4 @@
+@import '../../Media/media.scss';
 .nav-link-parent{
     .logo {
         color: var(--color-white);
@@ -15,17 +16,36 @@
         align-items: center;
         padding: 0 5%;
         position: relative;
+        @include sm{
+          padding: 0 !important;
+        }
       }
       .menu-bar ul {
         list-style: none;
         display: flex;
         margin: 0;
+        @include md{
+          padding: 0;
+          margin: 0;
+
+        }
+        @include sm{
+          margin: 0%;
+          padding: 0;
+
+        }
       }
       .menu-bar ul li {
         /* width: 120px; */
         padding: 0 20px;
         /* text-align: center; */
         position: relative;
+        @include md{
+          padding: 0 10px;
+        }
+        @include sm{
+          padding: 0 5px;
+        }
       }
       .menu-bar ul li a {
         font-size: 13px;
@@ -33,6 +53,12 @@
         color: var(--color-white);
         text-decoration: none;
         transition: all 0.3s;
+        @include md{
+          font-size: 9px;
+        }
+        @include sm{
+          font-size: 6px;
+        }
       }
       .menu-bar ul li a:hover {
         color: var(--color-primary);
