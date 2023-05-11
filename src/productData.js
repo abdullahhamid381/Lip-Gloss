@@ -4,7 +4,9 @@ import { AiFillHeart } from 'react-icons/ai'
 import firstp from './components/assest/firstp.webp'
 import secondp from './components/assest/secondp.webp'
 import thirdp from './components/assest/thirdp.webp'
-
+import kk from './components/assest/kk.webp'
+import oo from './components/assest/oo.webp'
+import ll from './components/assest/ll.webp'
 
 export const party = [
   {
@@ -77,7 +79,7 @@ export default [
     ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
   },
   {
-    img: './images/kk.webp',
+    img: kk,
     title: 'Smudge Me Not Collection',
     price: 200,
     id: 4,
@@ -94,7 +96,7 @@ export default [
 
   },
   {
-    img: './images/oo.webp',
+    img: oo,
     title: 'Smudge Me Not Collection',
     price: 200,
     id: 5,
@@ -111,7 +113,7 @@ export default [
   },
 
   {
-    img: './images/ll.webp',
+    img: ll,
     title: 'Smudge Me Not Collection',
     price: 200,
     id: 6,
