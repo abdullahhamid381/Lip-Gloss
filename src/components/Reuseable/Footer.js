@@ -31,13 +31,13 @@ const Footer = () => {
               </ul>
             </div>
             <div className="footer-col" style={{ marginTop: "20px" }}>
-              <h4>get help</h4>
+              <h4>get help on</h4>
               <ul>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">shipping</a></li>
-                <li><a href="#">returns</a></li>
-                <li><a href="#">order status</a></li>
-                <li><a href="#">payment options</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Pinterest</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Skype</a></li>
               </ul>
             </div>
             <div className="footer-col">

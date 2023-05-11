@@ -46,27 +46,19 @@ const Navlink = () => {
           </ul>
         </div> */}
       </li>
-      <li>
-        <a href="#">HOW IT WORK</a>
-      </li>
-      <li>
-        <a href="#">PRICING</a>
-      </li>
+     
+    
       <li>
         <a href="https://final--fluffy-mochi-9598b3.netlify.app/">
           CREATE YOUR LIPPIE
         </a>
       
       </li>
-      <li>
-        <a href="#">RESERVE SEAT</a>
-      </li>
+     
       <li>
         <Link to='/about'>ABOUT US</Link>
       </li>
-      <li>
-        <a href="#">FRANCHISE</a>
-      </li>
+    
     </ul>
   </div>
 
