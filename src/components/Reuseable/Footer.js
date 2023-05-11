@@ -37,7 +37,7 @@ const Footer = () => {
                 <li><a href="#">Twitter</a></li>
                 <li><a href="#">Pinterest</a></li>
                 <li><a href="#">Instagram</a></li>
-                <li><a href="#">Skype</a></li>
+               
               </ul>
             </div>
             <div className="footer-col">
