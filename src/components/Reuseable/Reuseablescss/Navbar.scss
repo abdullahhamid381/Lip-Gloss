@@ -1,18 +1,36 @@
+@import '../../Media//media.scss';
+
 .navbar-paretn{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px 0;
+    grid-template-areas: "one two three";
     border-bottom: 1px solid #80808026;
+    @include lg{
+        grid-template-areas: "two three";
+        grid-template-columns: 1fr 1fr;
+    }
+   
+    .empty{
+        grid-area: one;
+    }
+
+ 
     .logo{
+     
         width: 50%;
         margin: auto;
+
+        grid-area: two;
         img{
             width: 100%;
             
             
         }
+       
     }
     .search-cart-parent{
+        grid-area: three;
         display: flex;
         align-items: center;
         justify-content: center;

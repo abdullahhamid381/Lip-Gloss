@@ -6,16 +6,22 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import "./Homescss/ProductSlider.scss";
-
+import { useSelector, useDispatch } from "react-redux";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 import { Link } from "react-router-dom";
 import { productslider } from "../../productData";
-const ProductSlider = () => {
+const ProductSlider = ({data,title,para}) => {
+    const items = useSelector((state) => state.allCart.items);
+
+    const dispatch = useDispatch();
     return (
 
         <div className="product-slider-parent">
-            
+            <div className="heading">
+                <h3>{title}</h3>
+                <p>{para}</p>
+            </div>
             <Link to="/products" style={{ color: "black" }}>
                 <Swiper
                     slidesPerView={3}
@@ -28,7 +34,7 @@ const ProductSlider = () => {
                     modules={[Pagination, Navigation]}
                     className="mySwiper"
                 >
-                    {productslider.map((item) => {
+                    {data.map((item) => {
                         return (
 
                             <div>

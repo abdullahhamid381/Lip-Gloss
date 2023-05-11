@@ -1,15 +1,16 @@
 import React from 'react'
 import './Reuseablescss/Navlink.scss'
+import { Link } from 'react-router-dom'
 const Navlink = () => {
   return (
    <div className='nav-link-parent'>
     <div className="menu-bar">
     <ul>
     <li>
-        <a href="#">
+        <Link to='/shop'>
           SHOP NOW
           {/* <i className="fas fa-caret-down" /> */}
-        </a>
+        </Link>
         {/* <div className="dropdown-menu">
           <ul>
             <li>

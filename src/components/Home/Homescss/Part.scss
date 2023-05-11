@@ -1,51 +1,17 @@
-.part-grid{
-    max-width:1000px ;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: auto;
-    #border{
-        border-right: 1px solid rgba(128, 128, 128, 0.299);
-    }
-    .party-detail{
-        margin: 40px 0;
-       .icon{
-        display: flex;
-        justify-content: center;
-        span{
-            font-size: 40px;
-            margin-bottom: 10px;
-            color: #A9A9A9;
-        }
-       }
-       .title{
-        display: flex;
-        justify-content: center;
-        h5{
-            font-size: 13px;
-            font-weight: 600;
-            margin: 0;
-        }
-       }
-       .para{
-        display: flex;
-        justify-content: center;
-        font-size: 13px;
-        font-weight: 400;
-       }
-    }
-  
-}
+@import '../../Media/media.scss';
 .popular-parent{
     .product-gift-grid{
         display: grid;
        padding: 50px 0 0 0;
         grid-template-columns: 1fr 1fr;
-        place-items: center;
+   
         max-width: 1200px;
         width: 100%;
         margin: auto;
-       
+       @include lg{
+        grid-template-columns: 1fr;
+        margin: auto;
+       }
         gap: 20px;
        
         .product-gift-img{

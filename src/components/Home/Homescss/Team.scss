@@ -1,0 +1,70 @@
+@import '../../Media/media.scss';
+.team-parent{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    .team-img-text-first{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 40px 0;
+        margin: auto;
+        @include lg{
+            grid-template-columns: 1fr;
+            margin: auto;
+        }
+        img{
+            width: 100%;
+        }
+        .content{
+            margin-left: -60px;
+            background: white;
+            padding: 30px;
+            @include lg{
+                margin-left: 0 !important;
+                margin: auto;
+            }
+            h3{
+                font-size: 17px;
+            }
+            p{
+                font-size: 13px;
+            }
+        }
+    }
+    .team-img-text-second{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 40px 0;
+        img{
+            width: 100%;
+        }
+        @include lg{
+            grid-template-columns: 1fr;
+            margin: auto;
+        }
+        .content{
+            margin-right: -60px;
+            background: white;
+            padding: 30px;
+            z-index: 999;
+            @include lg{
+                margin-right: 0 !important;
+                margin: auto;
+            }
+            h3{
+                font-size: 17px;
+                text-align: end;
+                @include lg{
+                    text-align: start;
+                }
+            }
+            p{
+                @include lg{
+                    text-align: start;
+                }
+            }
+        }
+    }
+}

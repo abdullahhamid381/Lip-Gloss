@@ -1,0 +1,28 @@
+.product-shop-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    
+   
+      img{
+        width: 100%;
+      }
+      
+      .title{
+        margin: 0;
+        text-align: center;
+        font-size: 13px;
+      }
+      .price{
+        text-align: center;
+        font-size: 13px;
+        font-weight: bolder;
+      }
+      
+      
+      
+     
+      
+}

@@ -21,14 +21,16 @@ export default function App() {
 
   return (
     <div className="navbar-paretn">
-      <div>
+      <div className="empty">
 
       </div>
-    <Link to='/'>
-    <div className="logo">
+    
+    <div className="logo" >
+    <Link to='/' style={{border:'none',textDecoration:'none'}}>
         <img src="./images/logo.jpg" alt="" />
+        </Link>
       </div>
-    </Link>
+   
       
       <div className="search-cart-parent">
         <div className="search-parent">

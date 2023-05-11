@@ -63,26 +63,67 @@ export const productslider=[
   {
     img:'./images/firstp.webp',
     title:'Smudge Me Not Collection',
+    cata:'collection first',
     price:'$20.00',
+    id:1,
+
+  },
+  {
+    img:'./images/firstp.webp',
+    title:'Smudge Me Not Collection',
+    cata:'collection first',
+    price:'$20.00',
+    id:1,
 
   },
   {
     img:'./images/secondp.webp',
     title:'Smudge Me Not Collection',
     price:'$20.00',
+    id:2,
+    cata:'collection first',
   },
   {
-    img:'./images/thirdp.webp',
+    img:'./images/kk.webp',
     title:'Smudge Me Not Collection',
     price:'$20.00',
-
+    id:3,
+    cata:'collection second',
   },
   {
-    img:'./images/fourthp.webp',
+    img:'./images/oo.webp',
     title:'Smudge Me Not Collection',
     price:'$20.00',
-
+    id:4,
+    cata:'collection second',
+  },
+ 
+  {
+    img:'./images/ll.webp',
+    title:'Smudge Me Not Collection',
+    price:'$20.00',
+    id:4,
+    cata:'collection second',
   },
  
 
+]
+
+export const team=[
+  {
+    img:'./images/6.webp',
+    h3:'GIRL,S NIGHT',
+    p:'Gather your girlfriends for a night of making lipsticks, partying, and fun. Escape the stress-filled everyday and relax in our colorful, casual atmosphere. Sip your favorite beverage and dance to the music while our experienced artists help you create your own personal masterpiece.',
+  },
+  {
+    img:'./images/7.webp',
+    h3:'BIRTHDAY PARTIES',
+    p:'Set your creativity free with a new twist on fun. Our professional mixologists guides each guest to create a finished work of art they can proudly use and call their own.',
+    id:'second'
+  },
+  {
+    img:'./images/8.webp',
+    h3:'BRIDAL SHOWERS',
+    p:'Celebrate with your sisterhood and create a lasting memory before your big day. It,s the perfect plan for your wedding party. Mix and sip with your sisters in style. Book a private party or join one of ours.',
+  },
 ]

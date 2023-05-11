@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from '../Reuseable/Navbar'
+import Navlink from '../Reuseable/Navlink'
 import {
   MDBCard,
   MDBCardBody,
@@ -11,7 +13,7 @@ import {
   MDBCol,
 } from "mdb-react-ui-kit";
 import { useSelector, useDispatch } from "react-redux";
-import { addToCart } from "../features/cartSlice";
+import { addToCart } from "../../features/cartSlice";
 
 export default function App() {
   const items = useSelector((state) => state.allCart.items);
@@ -20,6 +22,15 @@ export default function App() {
 
   return (
     <div className="m-2">
+<div>
+  <div>
+    <Navbar/>
+  </div>
+  <div>
+    <Navlink/>
+  </div>
+</div>
+
       <MDBContainer>
         <MDBRow className="mb-3">
           {items.map((item) => (
