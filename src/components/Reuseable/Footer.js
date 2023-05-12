@@ -5,13 +5,14 @@ import { BsInstagram } from 'react-icons/bs'
 import { AiOutlineTwitter,AiFillFacebook,AiOutlineInstagram,AiFillYoutube, AiOutlineMail } from 'react-icons/ai'
 import { CiLocationOn } from 'react-icons/ci'
 import { BsTelephone,BsPinterest } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <Fragment>
       <footer className="footer">
         <div className="container">
           <div className="row">
-            <div className="footer-col" style={{marginTop:'50px'}}>
+            <div className="footer-col" style={{}}>
               <h4>Contact Us</h4>
               <ul>
                 <li> <a href="#"> <span style={{marginRight:'5px'}}>
@@ -30,23 +31,23 @@ const Footer = () => {
                 </div>
               </ul>
             </div>
-            <div className="footer-col" style={{ marginTop: "20px" }}>
-              <h4>get help on</h4>
+            <div className="footer-col" style={{  }}>
+              <h4>Pages</h4>
               <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Pinterest</a></li>
-                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Home</a></li>
+                <li><Link to='/shop'>Shop</Link></li>
+                <li><a href="https://final--fluffy-mochi-9598b3.netlify.app/">Create your lippe</a></li>
+                <li><Link to='/about'>About</Link></li>
                
               </ul>
             </div>
             <div className="footer-col">
-              <h4>online shop</h4>
+              <h4>Products</h4>
               <ul>
-                <li><a href="#">watch</a></li>
-                <li><a href="#">bag</a></li>
-                <li><a href="#">shoes</a></li>
-                <li><a href="#">dress</a></li>
+                <li><a href="#">Islans Escape</a></li>
+                <li><a href="#">Peach Passion</a></li>
+                <li><a href="#">Lip gloss</a></li>
+              
               </ul>
             </div>
             <div className="footer-col" style={{ }}>

@@ -16,8 +16,8 @@
       .row{
           display: grid;
           grid-template-columns: 1fr 1fr 1fr 1fr;
-          place-items: center;
-          align-items: center;
+        padding-top: 60px;
+        
          
           @include lg{
             grid-template-columns: 1fr ;
