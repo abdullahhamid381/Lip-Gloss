@@ -40,7 +40,7 @@ const ProductSlider = ({data,title,para}) => {
                         const {id,title,img,price} = item
                         return (
 
-                            <div >
+                            <div>
                                 <SwiperSlide onClick={()=> navigate(`/product/${id}`)}>
                                     <div >
                                         <img src={img} alt="" />

@@ -15,14 +15,14 @@ const Footer = () => {
             <div className="footer-col" style={{}}>
               <h4>Contact Us</h4>
               <ul>
-                <li> <a href="#"> <span style={{marginRight:'5px'}}>
+                <li> <a> <span style={{marginRight:'5px'}}>
                   <CiLocationOn />
                 </span > 1811 Sardis Rd N Suite 204,
                   Charlotte, NC, 28270</a></li>
-                <li><span></span><a href="#"><span style={{marginRight:'5px'}}> <BsTelephone /> </span> (980) 292-1002</a></li>
-                <li><a href="#"> <span style={{marginRight:'5px'}}><AiOutlineMail /> </span>
+                <li><span></span><a><span style={{marginRight:'5px'}}> <BsTelephone /> </span> (980) 292-1002</a></li>
+                <li><a> <span style={{marginRight:'5px'}}><AiOutlineMail /> </span>
                   hello@lipnpour.com</a></li>
-                <li style={{marginTop:'20px'}}><a href="#" style={{fontSize:'15px'}}>Stay Connected</a></li>
+                <li style={{marginTop:'20px'}}><a  style={{fontSize:'15px'}}>Stay Connected</a></li>
                 <div style={{display:'flex',gap:'15px'}}>
                   <span style={{color:'white'}}><AiFillFacebook/></span>
                   <span style={{color:'white'}}><BsPinterest/></span>
@@ -44,9 +44,9 @@ const Footer = () => {
             <div className="footer-col">
               <h4>Products</h4>
               <ul>
-                <li><a href="#">Islans Escape</a></li>
-                <li><a href="#">Peach Passion</a></li>
-                <li><a href="#">Lip gloss</a></li>
+                <li><a>Islans Escape</a></li>
+                <li><a>Peach Passion</a></li>
+                <li><a>Lip gloss</a></li>
               
               </ul>
             </div>
