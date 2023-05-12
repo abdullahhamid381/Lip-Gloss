@@ -11,6 +11,7 @@ import { AiOutlineSearch } from 'react-icons/ai'
 import { getCartTotal } from "../../features/cartSlice";
 import { BiShoppingBag } from 'react-icons/bi'
 import './Reuseablescss/Navbar.scss'
+import logo from '../assest/logo.jpg'
 export default function App() {
   const { cart, totalQuantity } = useSelector((state) => state.allCart);
 
@@ -27,7 +28,7 @@ export default function App() {
     
     <div className="logo" >
     <Link to='/' style={{border:'none',textDecoration:'none'}}>
-        <img src="./images/logo.jpg" alt="" />
+        <img src={logo} alt="" />
         </Link>
       </div>
    
