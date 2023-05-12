@@ -1,5 +1,7 @@
 @import '../../Media//media.scss';
-
+body{
+    scroll-behavior: smooth;
+}
 .navbar-paretn{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

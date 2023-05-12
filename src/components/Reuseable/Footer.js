@@ -50,14 +50,14 @@ const Footer = () => {
               
               </ul>
             </div>
-            <div className="footer-col" style={{ }}>
+            {/* <div className="footer-col" style={{ }}>
               <h4>Newsletter</h4>
               <div className="social-links">
                <p style={{margin:'0',fontSize:'13px',color:'white'}}>Be The First To Know About The Latest Deals, Secret Sales, Style Updates, & More!</p>
                <input placeholder='Email address' type="search" style={{border:'none',outline:'none',marginTop:'10px',padding:'5px 10px',borderRadius:'4px'}}/>
                <button style={{border:'none',outline:'none',marginTop:'10px',borderRadius:'5px',padding:'5px 10px',background:'#EAC8CF',color:'white'}}>SUBSCRIBE</button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
