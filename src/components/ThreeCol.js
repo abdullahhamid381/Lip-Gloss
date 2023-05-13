@@ -2,8 +2,10 @@ import React from 'react'
 import "../scss/threecol.scss"
 import ProductSlider from './Home/ProductSlider';
 import { useSelector } from 'react-redux'
+import { useNavigate } from 'react-router-dom';
 const ThreeCol = () => {
     const items = useSelector((state) => state.allCart.items);
+    const navigate = useNavigate()
     return (
         <>
             <section className='three__col'>
@@ -16,7 +18,7 @@ const ThreeCol = () => {
                             <div className="content">
                                 <h2>Heading of this Section</h2>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nesciunt vero optio voluptatem culpa eveniet tempore esse ea facilis, ad suscipit soluta.</p>
-                                <button>Shop Now!</button>
+                                <button onClick={() => navigate('/shop')}>Shop Now!</button>
                             </div>
                         </div>
                         <div className="item">
@@ -43,7 +45,7 @@ const ThreeCol = () => {
                                 <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora non odit, iusto pariatur fugit numquam voluptas ullam. Consectetur asperiores, maxime libero ab debitis quisquam nobis ut velit est atque tempore!
                                 </p>
-                                <button>Shop Now</button>
+                                <button onClick={() => navigate('/shop')}>Shop Now</button>
                             </div>
                         </div>
                     </div>
@@ -57,7 +59,7 @@ const ThreeCol = () => {
                         <div className="start">
                             <h2>Heading of this section</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, facere tenetur sed corrupti dolore ipsam modi exercitationem? Iusto ducimus vero enim nostrum eos necessitatibus quis. Minus assumenda in aut voluptates.</p>
-                            <button>Shop Now!</button>
+                            <button onClick={() => navigate('/shop')}>Shop Now!</button>
                         </div>
                         <div className="end">
                             <img src="https://images.unsplash.com/photo-1556942040-df93bd3bdd19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmVhdXR5JTIwZmFjZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60" alt="" />
@@ -72,14 +74,14 @@ const ThreeCol = () => {
                             <img src="https://media.istockphoto.com/id/1193268916/photo/nail-varnish-bottle-falls-with-splattery-into-strawberry-yoghurt.jpg?s=612x612&w=0&k=20&c=8j5W6q4AaHdnQJuFKHNcQ73aCl99Ph2J2M-ZqFAT5Lk=" alt="" />
                             <div className="content">
                                 <h2>Heading of this Card</h2>
-                                <button>Shop Now!</button>
+                                <button onClick={() => navigate('/shop')}>Shop Now!</button>
                             </div>
                         </div>
                         <div className="item">
                             <img src="https://media.istockphoto.com/id/1287030562/photo/essential-oil.jpg?s=612x612&w=0&k=20&c=WuNDwxPG8Fye3W138lo0N3Si20ANx2_oYwaZFIkIYPI=" alt="" />
                             <div className="content">
                                 <h2>Heading of this Card</h2>
-                                <button>Shop Now!</button>
+                                <button onClick={() => navigate('/shop')}>Shop Now!</button>
                             </div>
                         </div>
 
@@ -87,7 +89,7 @@ const ThreeCol = () => {
                             <img src="https://media.istockphoto.com/id/1483086054/photo/white-cream-tube-in-pink-water-with-shadows-beauty-concept-top-view.jpg?s=612x612&w=0&k=20&c=rgF0Y2kbh0dYFEweAKH_nUUf74jmphZPnccpFtUBfk8=" alt="" />
                             <div className="content">
                                 <h2>Heading of this Card</h2>
-                                <button>Shop Now!</button>
+                                <button onClick={() => navigate('/shop')}>Shop Now!</button>
                             </div>
                         </div>
                     </div>
@@ -115,7 +117,7 @@ const ThreeCol = () => {
                                 <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora non odit, iusto pariatur fugit numquam voluptas ullam. Consectetur asperiores, maxime libero ab debitis quisquam nobis ut velit est atque tempore!
                                 </p>
-                                <button>Shop Now</button>
+                                <button onClick={() => navigate('/shop')}>Shop Now</button>
                             </div>
                         </div>
                     </div>
