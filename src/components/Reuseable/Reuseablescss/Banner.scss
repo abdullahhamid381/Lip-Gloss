@@ -1,6 +1,60 @@
-.banner-parent{
-    img{
-        width: 100%;
-        cursor: pointer;
+@import "../../Media/media.scss";
+.banner-parent {
+  padding: 90px 0;
+  background-image: url("https://img.freepik.com/free-photo/set-bright-lipsticks_23-2147779008.jpg?w=826&t=st=1683937332~exp=1683937932~hmac=28a86f2fc34743613d3f4d310ce9b14a21a0362db257da84b0d4f4f5eee3da9f");
+  background-position: center right;
+  background-size: cover;
+  filter: hue-rotate(325deg);
+  @include md {
+    background-position: center left;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 35px;
+      border-radius: 10px;
+      overflow: hidden;
+      @include md {
+        grid-template-columns: 1fr;
+        justify-content: center;
+      }
+      .start {
+        display: grid;
+        align-items: center;
+        height: fit-content;
+        align-self: center;
+        text-align: start;
+        p {
+          line-height: 1.3;
+        }
+        h2 {
+          font-size: 2.125rem;
+          text-transform: uppercase;
+          color: #000;
+          font-weight: 500;
+        }
+        button {
+          padding: 6px 15px;
+          border-radius: 8px;
+          border: 1px solid black;
+          color: black;
+          width: max-content;
+          background: transparent;
+        }
+      }
+      .end {
+        img {
+          width: 100%;
+          border-radius: 12px;
+          height: 100%;
+          height: 450px;
+          object-fit: cover;
+        }
+      }
     }
+  }
 }

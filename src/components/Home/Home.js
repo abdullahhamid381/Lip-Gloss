@@ -16,41 +16,42 @@ import Team from './Team'
 import Celebration from './Celebration'
 import Footer from '../Reuseable/Footer'
 import { useSelector } from 'react-redux'
+import ThreeCol from '../ThreeCol'
 const Home = () => {
     const items = useSelector((state) => state.allCart.items);
-  return (
-    <div>
+    return (
         <div>
-            <Navbar/>
+            <div>
+                <Navbar />
+            </div>
+            <div>
+                {/* <Navlink /> */}
+            </div>
+            <div>
+                <Banner />
+            </div>
+            <ThreeCol />
+            <div>
+                {/* <Celebration /> */}
+            </div>
+            <div>
+                {/* <Part first={two} second={three} third={four} /> */}
+            </div>
+            <div>
+
+
+            </div>
+            <div>
+                {/* <Team /> */}
+            </div>
+            <div>
+                {/* <Part first={five} second={six} third={seven} /> */}
+            </div>
+            <div>
+                <Footer />
+            </div>
         </div>
-        <div>
-            <Navlink/>
-        </div>
-        <div>
-            <Banner/>
-        </div>
-        <div>
-            <Celebration/>
-        </div>
-         <div>
-            <Part first={two} second={three} third={four}/>
-        </div>
-        <div>
-            <ProductSlider data={items.filter(item=> item.cata === 'collection first')} title={'CHECKOUT OUR BEST SELLERS'} para={'Our #LNPBabes Rave About These Products'}/>
-            <ProductSlider data={items.filter(item=> item.cata === 'collection second')} title={'CHECKOUT OUR BEST SELLERS'} para={'Our #LNPBabes Rave About These Products'}/>
-       
-        </div>
-        <div>
-            <Team/>
-        </div>
-        <div>
-            <Part first={five} second={six} third={seven}/>
-        </div> 
-       <div>
-        <Footer/>
-       </div>
-    </div>
-  )
+    )
 }
 
 export default Home

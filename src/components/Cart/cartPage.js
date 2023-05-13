@@ -24,10 +24,10 @@ const CartPage = () => {
   return (
     <div>
       <div>
-        <Navbar/>
+        <Navbar />
       </div>
       <div>
-        <Navlink/>
+        <Navlink />
       </div>
       <section className="h-100 gradient-custom">
         <div className="container py-5">
@@ -58,7 +58,7 @@ const CartPage = () => {
                           <strong>{data.title}</strong>
                         </p>
 
-                        <button style={{background:'#f3b2bd',boxShadow:'none'}}
+                        <button style={{ background: '#f3b2bd', boxShadow: 'none' }}
                           type="button"
                           className="btn btn-primary btn-sm me-1 mb-2"
                           data-mdb-toggle="tooltip"
@@ -74,7 +74,7 @@ const CartPage = () => {
                           className="d-flex mb-4"
                           style={{ maxWidth: "300px" }}
                         >
-                          <button style={{background:'#f3b2bd',boxShadow:'none'}}
+                          <button style={{ background: '#f3b2bd', boxShadow: 'none' }}
                             className="btn btn-primary px-3 me-2"
                             onClick={() =>
                               dispatch(decreaseItemQuantity(data.id))
@@ -84,7 +84,7 @@ const CartPage = () => {
                           </button>
 
                           <div className="form-outline">
-                            <input style={{textAlign:'center',boxShadow:'none'}}
+                            <input style={{ textAlign: 'center', boxShadow: 'none' }}
                               id="form1"
                               min="0"
                               name="quantity"
@@ -94,11 +94,11 @@ const CartPage = () => {
                               onChange={() => null}
                             />
                             <label className="form-label" for="form1">
-                            
+
                             </label>
                           </div>
 
-                          <button style={{background:'#f3b2bd',boxShadow:'none'}}
+                          <button style={{ background: '#f3b2bd', boxShadow: 'none' }}
                             className="btn btn-primary px-3 ms-2"
                             onClick={() =>
                               dispatch(increaseItemQuantity(data.id))
@@ -140,7 +140,7 @@ const CartPage = () => {
                     </li>
                   </ul>
 
-                  <button style={{background:'#f3b2bd',boxShadow:'none'}}
+                  <button style={{ background: '#f3b2bd', boxShadow: 'none' }}
                     type="button"
                     className="btn btn-primary btn-lg btn-block"
                   >
@@ -152,7 +152,7 @@ const CartPage = () => {
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

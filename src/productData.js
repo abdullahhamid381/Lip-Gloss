@@ -46,6 +46,22 @@ export default [
     ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
   },
   {
+    img: firstp,
+    title: 'Smudge Me Not Collection',
+    cata: 'collection first',
+    price: 200,
+    id: 1,
+    quantity: 1,
+    stock: 'In Stock',
+    demand: 'ASK ABOUT THIS PRODUCT',
+    what: 'Peppermint-scented, luxuriously textured balm re-hydrates, pampers, and helps repair and nurture lips, transforming them to a new level of softness, smoothness and suppleness. It can be worn alone or over lip color for a dewy, more youthful-looking pout.',
+    pointfirst: 'Peppermint scented luxurious balm',
+    pointsecond: 'Help repair and nurture lips',
+    pointthird: 'Leaves lips soft, supple and smooth',
+    use: 'Usage: Apply liberally to lips morning and evening, and as often as needed throughout the day',
+    ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
+  },
+  {
     img: secondp,
     title: 'Smudge Me Not Collection',
     cata: 'collection first',
@@ -77,6 +93,22 @@ export default [
     pointthird: 'Leaves lips soft, supple and smooth',
     use: 'Usage: Apply liberally to lips morning and evening, and as often as needed throughout the day',
     ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
+  },
+  {
+    img: ll,
+    title: 'Smudge Me Not Collection',
+    price: 200,
+    id: 6,
+    stock: 'In Stock',
+    demand: 'ASK ABOUT THIS PRODUCT',
+    what: 'Peppermint-scented, luxuriously textured balm re-hydrates, pampers, and helps repair and nurture lips, transforming them to a new level of softness, smoothness and suppleness. It can be worn alone or over lip color for a dewy, more youthful-looking pout.',
+    pointfirst: 'Peppermint scented luxurious balm',
+    pointsecond: 'Help repair and nurture lips',
+    quantity: 1,
+    pointthird: 'Leaves lips soft, supple and smooth',
+    use: 'Usage: Apply liberally to lips morning and evening, and as often as needed throughout the day',
+    ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
+    cata: 'collection second',
   },
   {
     img: kk,
@@ -128,6 +160,7 @@ export default [
     ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
     cata: 'collection second',
   },
+
 
 
 ]

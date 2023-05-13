@@ -12,56 +12,43 @@ import { Pagination, Navigation } from "swiper";
 import { Link } from "react-router-dom";
 import { productslider } from "../../productData";
 
-const ProductSlider = ({data,title,para}) => {
-    
-
+const ProductSlider = ({ data, title, para }) => {
     const dispatch = useDispatch();
-    const navigate =  useNavigate()
+    const navigate = useNavigate();
     return (
-
         <div className="product-slider-parent">
-            <div className="heading">
-                <h3>{title}</h3>
-                <p>{para}</p>
-            </div>
-         
-                <Swiper
-                    slidesPerView={3}
-                    spaceBetween={30}
+            <Swiper
+                slidesPerView={4}
+                spaceBetween={14}
+                rewind={true}
+                navigation={true}
+                modules={[Pagination, Navigation]}
+                className="mySwiper"
+            >
+                {data.map((item) => {
+                    const { id, title, img, price } = item;
+                    return (
+                        <SwiperSlide onClick={() => navigate(`/product/${id}`)}>
+                            <div className="slider__item">
+                                <div>
+                                    <img src={img} alt="" />
+                                </div>
+                                <div className="flex__">
+                                    <div className="start">
+                                        <h3>{title}</h3>
+                                        <p>lip stick</p>
 
-
-
-                    rewind={true}
-                    navigation={true}
-                    modules={[Pagination, Navigation]}
-                    className="mySwiper"
-                >
-                    {data.map((item) => {
-                        const {id,title,img,price} = item
-                        return (
-
-                            <div>
-                                <SwiperSlide onClick={()=> navigate(`/product/${id}`)}>
-                                    <div >
-                                        <img src={img} alt="" />
                                     </div>
-                                  <div style={{margin:'10px 0'}}>
-                                  <div>
-                                        <p className="title">{title}</p>
+                                    <div className="end">
+                                        {price}
                                     </div>
-                                    <div>
-                                        <h5 className="price">{price}</h5>
-                                    </div>
-                                  </div>
-                                </SwiperSlide>
+                                </div>
                             </div>
-
-                        );
-                    })}
-                </Swiper>
-           
+                        </SwiperSlide>
+                    );
+                })}
+            </Swiper>
         </div>
-
     );
 };
 

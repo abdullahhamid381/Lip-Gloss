@@ -12,6 +12,9 @@ import { getCartTotal } from "../../features/cartSlice";
 import { BiShoppingBag } from 'react-icons/bi'
 import './Reuseablescss/Navbar.scss'
 import logo from '../assest/logo.jpg'
+import cartIcon from "../../assets/cart.svg"
+import search from "../../assets/search.svg"
+import Navlink from "./Navlink";
 export default function App() {
   const { cart, totalQuantity } = useSelector((state) => state.allCart);
 
@@ -22,36 +25,42 @@ export default function App() {
 
   return (
     <div className="navbar-paretn">
-      <div className="empty">
-
-      </div>
-    
-    <div className="logo" >
-    <Link to='/' style={{border:'none',textDecoration:'none'}}>
-        <img src={logo} alt="" />
-        </Link>
-      </div>
-   
-      
-      <div className="search-cart-parent">
-        <div className="search-parent">
-          <input type="checkbox" name="" id="chkbox" />
-          <div className="search-bar">
-            <div className="search-box">
-              <label htmlFor="chkbox">
-                <span><AiOutlineSearch className="icon" /></span>
-              </label>
-            </div>
-            <input type="search" placeholder="Search Here" className="search-input" />
-          </div>
+      <div className="container">
+        <div className="empty">
+          <Navlink />
         </div>
-        <div>
-          <Link to='/cart' style={{color:'black'}}>
-          <span>
-          <BiShoppingBag className="icon" />
-          </span>
-          <span> ({totalQuantity})</span>
-          </Link>
+
+        <div className="logo" >
+          <Link to='/' style={{ border: 'none', textDecoration: 'none' }}>
+            <h2 style={{ color: 'black' }}>LOGO</h2>          </Link>
+        </div>
+
+
+        <div className="search-cart-parent">
+          <div className="search-parent">
+            <input type="checkbox" name="" id="chkbox" />
+            <div className="search-bar">
+              <div className="search-box">
+                <label htmlFor="chkbox">
+                  <img src={search} alt="" />
+                </label>
+              </div>
+              <input type="search" placeholder="Search Here" className="search-input" />
+            </div>
+          </div>
+          <div>
+            <Link to='/cart' style={{ color: 'black' }}>
+              <span>
+                <img style={{ filter: 'invert(1)' }} src={cartIcon} alt="" />
+              </span>
+              <span style={{
+                fontSize: '10px',
+                position: 'relative',
+                top: '-10px',
+                left: '-4px'
+              }}> ({totalQuantity})</span>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
