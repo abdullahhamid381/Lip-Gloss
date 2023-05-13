@@ -11,11 +11,19 @@ body {
   @include lg {
     height: unset;
   }
+  @include -lg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 100;
+  }
   .container {
     max-width: 1200px;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 0.8fr 1fr;
     padding: 10px 0;
     grid-template-areas: "one two three";
     @include lg {
@@ -33,6 +41,9 @@ body {
     height: 45px;
     margin: auto;
     grid-area: two;
+    @include md {
+      margin-left: 10px;
+    }
     img {
       width: 100%;
       height: 100%;

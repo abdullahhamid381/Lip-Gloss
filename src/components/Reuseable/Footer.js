@@ -25,6 +25,31 @@ const Footer = () => {
             </a>
 
           </div>
+          <ul style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap', listStyle: 'none' }}>
+            <li>
+              {" "}
+              <Link to="/" style={{ color: '#393939' }}>
+                Home
+                {/* <i className="fas fa-caret-down" /> */}
+              </Link>
+            </li>
+            <li>
+              <Link to="/shop" style={{ color: '#393939' }}>
+                Shop
+                {/* <i className="fas fa-caret-down" /> */}
+              </Link>
+            </li>
+
+            <li>
+              <a href="https://final--fluffy-mochi-9598b3.netlify.app/" style={{ color: '#393939' }}>
+                Lip Viewer
+              </a>
+            </li>
+
+            <li>
+              <Link to="/about" style={{ color: '#393939' }}>About Us</Link>
+            </li>
+          </ul>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolore natus quidem nesciunt ab necessitatibus quam, porro in at laboriosam alias eius quibusdam mollitia tenetur similique nam animi! Maiores, dolorum.</p>
           <p>© 2023 website name</p>
         </div>

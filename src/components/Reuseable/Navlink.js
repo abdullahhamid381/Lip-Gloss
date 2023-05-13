@@ -1,69 +1,38 @@
-import React from 'react'
-import './Reuseablescss/Navlink.scss'
-import { Link } from 'react-router-dom'
+import React from "react";
+import "./Reuseablescss/Navlink.scss";
+import { Link } from "react-router-dom";
 const Navlink = () => {
   return (
-   <div className='nav-link-parent'>
-    <div className="menu-bar">
-    <ul>
-    <li>
-        <Link to='/shop'>
-          SHOP NOW
-          {/* <i className="fas fa-caret-down" /> */}
-        </Link>
-        {/* <div className="dropdown-menu">
-          <ul>
-            <li>
-              <a href="#">Pricing</a>
-            </li>
-            <li>
-              <a href="#">Portfolio</a>
-            </li>
-            <li>
-              <a href="#">
-                Team <i className="fas fa-caret-right" />
-              </a>
-              <div className="dropdown-menu-1">
-                <ul>
-                  <li>
-                    <a href="#">Team-1</a>
-                  </li>
-                  <li>
-                    <a href="#">Team-2</a>
-                  </li>
-                  <li>
-                    <a href="#">Team-3</a>
-                  </li>
-                  <li>
-                    <a href="#">Team-4</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <a href="#">FAQ</a>
-            </li>
-          </ul>
-        </div> */}
-      </li>
-     
-    
-      <li>
-        <a href="https://final--fluffy-mochi-9598b3.netlify.app/">
-          CREATE YOUR LIPPIE
-        </a>
-      
-      </li>
-     
-      <li>
-        <Link to='/about'>ABOUT US</Link>
-      </li>
-    
-    </ul>
-  </div>
+    <div className="nav-link-parent">
+      <div className="menu-bar">
+        <ul>
+          <li>
+            {" "}
+            <Link to="/">
+              Home
+              {/* <i className="fas fa-caret-down" /> */}
+            </Link>
+          </li>
+          <li>
+            <Link to="/shop">
+              Shop
+              {/* <i className="fas fa-caret-down" /> */}
+            </Link>
+          </li>
 
-   </div>
-  )
-}
+          <li>
+            <a href="https://final--fluffy-mochi-9598b3.netlify.app/">
+              Lip Viewer
+            </a>
+          </li>
 
-export default Navlink
+          <li>
+            <Link to="/about">About Us</Link>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Navlink;

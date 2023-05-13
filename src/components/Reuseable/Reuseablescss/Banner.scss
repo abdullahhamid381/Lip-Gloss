@@ -5,6 +5,9 @@
   background-position: center right;
   background-size: cover;
   filter: hue-rotate(325deg);
+  @include -lg {
+    margin-top: 70px;
+  }
   @include md {
     background-position: center left;
   }

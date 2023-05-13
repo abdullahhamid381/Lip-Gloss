@@ -11,6 +11,7 @@ const Shop = () => {
 
     const navigate = useNavigate()
     const items = useSelector((state) => state.allCart.items);
+    window.scrollTo(0, 0)
     return (
 
         <div>

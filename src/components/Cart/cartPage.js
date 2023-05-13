@@ -27,7 +27,6 @@ const CartPage = () => {
         <Navbar />
       </div>
       <div>
-        <Navlink />
       </div>
       <section className="h-100 gradient-custom">
         <div className="container py-5">
