@@ -42,14 +42,14 @@ const ProductSlider = ({data,title,para}) => {
 
                             <div>
                                 <SwiperSlide onClick={()=> navigate(`/product/${id}`)}>
-                                    <div >
+                                    <div data-aos='fade-down' >
                                         <img src={img} alt="" />
                                     </div>
                                   <div style={{margin:'10px 0'}}>
-                                  <div>
+                                  <div data-aos='fade-left'>
                                         <p className="title">{title}</p>
                                     </div>
-                                    <div>
+                                    <div data-aos='fade-right'>
                                         <h5 className="price">{price}</h5>
                                     </div>
                                   </div>

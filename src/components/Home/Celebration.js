@@ -8,13 +8,13 @@ const Celebration = () => {
             party.map((item)=>{
                 return(
                     <div className='party-detail' id={item.id}>
-                        <div className='icon'>
+                        <div className='icon' data-aos='fade-up'>
                             <span>{item.icon}</span>
                         </div>
-                        <div className='title'>
+                        <div className='title' data-aos='fade-left'>
                             <h5>{item.title}</h5>
                         </div>
-                        <div className='para'>
+                        <div className='para' data-aos='fade-right'>
                             {item.para}
                         </div>
                     </div>

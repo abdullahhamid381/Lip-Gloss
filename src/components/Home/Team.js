@@ -18,7 +18,7 @@ const Team = () => {
 
 
 
-            <div className='team-img-text-second'data-aos="fade-up">
+            <div className='team-img-text-second'data-aos="fade-right">
                 
                 <div className='content'>
                     <div>
@@ -33,7 +33,7 @@ const Team = () => {
             </div>
 
 
-            <div className='team-img-text-first'data-aos="fade-up">
+            <div className='team-img-text-first'data-aos="fade-left">
                 <div>
                     <img src="./images/8.webp" alt="" />
                 </div>
