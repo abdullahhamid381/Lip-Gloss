@@ -3,7 +3,7 @@ import './Homescss/Team.scss'
 const Team = () => {
     return (
         <div className='team-parent'>
-            <div className='team-img-text-first'>
+            <div className='team-img-text-first' data-aos="fade-right">
                 <div>
                     <img src="./images/6.webp" alt="" />
                 </div>
@@ -18,7 +18,7 @@ const Team = () => {
 
 
 
-            <div className='team-img-text-second'>
+            <div className='team-img-text-second'data-aos="fade-left">
                 
                 <div className='content'>
                     <div>
@@ -33,7 +33,7 @@ const Team = () => {
             </div>
 
 
-            <div className='team-img-text-first'>
+            <div className='team-img-text-first'data-aos="fade-right">
                 <div>
                     <img src="./images/8.webp" alt="" />
                 </div>
