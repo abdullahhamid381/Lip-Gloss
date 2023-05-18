@@ -25,7 +25,9 @@
                 margin: auto;
             }
             h3{
+                font-weight: bolder;
                 font-size: 17px;
+                color: #FFCAD0;
             }
             p{
                 font-size: 13px;
@@ -56,6 +58,8 @@
             h3{
                 font-size: 17px;
                 text-align: end;
+                color: #FFCAD0;
+                font-weight: bolder;
                 @include lg{
                     text-align: start;
                 }
