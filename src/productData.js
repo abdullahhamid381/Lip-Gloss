@@ -1,12 +1,10 @@
 import { BsPencil } from 'react-icons/bs'
 import { HiOutlineCake } from 'react-icons/hi'
 import { AiFillHeart } from 'react-icons/ai'
-import firstp from './components/assest/firstp.webp'
-import secondp from './components/assest/secondp.webp'
-import thirdp from './components/assest/thirdp.webp'
-import kk from './components/assest/kk.webp'
-import oo from './components/assest/oo.webp'
-import ll from './components/assest/ll.webp'
+import first from './components/assest/1.png'
+import second from './components/assest/2.png'
+import third from './components/assest/3.png'
+import fourth from './components/assest/4.png'
 
 export const party = [
   {
@@ -30,7 +28,7 @@ export const party = [
 ]
 export default [
   {
-    img: firstp,
+    img: first,
     title: 'Smudge Me Not Collection',
     cata: 'collection first',
     price: 200,
@@ -46,7 +44,7 @@ export default [
     ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
   },
   {
-    img: secondp,
+    img: second,
     title: 'Smudge Me Not Collection',
     cata: 'collection first',
     price: 200,
@@ -63,7 +61,7 @@ export default [
 
   },
   {
-    img: thirdp,
+    img: third,
     title: 'Smudge Me Not Collection',
     quantity: 1,
     price: 200,
@@ -79,7 +77,7 @@ export default [
     ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
   },
   {
-    img: kk,
+    img: fourth,
     title: 'Smudge Me Not Collection',
     price: 200,
     id: 4,
@@ -96,7 +94,7 @@ export default [
 
   },
   {
-    img: oo,
+    img: first,
     title: 'Smudge Me Not Collection',
     price: 200,
     id: 5,
@@ -113,7 +111,7 @@ export default [
   },
 
   {
-    img: ll,
+    img:second,
     title: 'Smudge Me Not Collection',
     price: 200,
     id: 6,

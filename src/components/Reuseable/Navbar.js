@@ -11,7 +11,7 @@ import { AiOutlineSearch } from 'react-icons/ai'
 import { getCartTotal } from "../../features/cartSlice";
 import { BiShoppingBag } from 'react-icons/bi'
 import './Reuseablescss/Navbar.scss'
-import logo from '../assest/logo.jpg'
+import logo from '../assest/logo.png'
 export default function App() {
   const { cart, totalQuantity } = useSelector((state) => state.allCart);
 
