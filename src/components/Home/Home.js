@@ -9,9 +9,9 @@ import { productslider, productslidertwo } from '../../productData'
 import two from '../assest/2.webp'
 import three from '../assest/3.webp'
 import four from '../assest/4.webp'
-import five from '../assest/5.webp'
-import six from '../assest/6.webp'
-import seven from '../assest/7.webp'
+import five from '../assest/9.jpg'
+import six from '../assest/10.jpg'
+import seven from '../assest/11.jpg'
 import Team from './Team'
 import Celebration from './Celebration'
 import Footer from '../Reuseable/Footer'
@@ -48,7 +48,7 @@ const Home = () => {
         <ProductSlider data={items.filter(item=> item.cata === 'collection second')} title={'CHECKOUT OUR BEST SELLERS'} para={'Our #LNPBabes Rave About These Products'}/>
         </div>
         <div>
-            <Part first={five} second={six} third={seven}/>
+            <Part first={five} second={six} />
         </div> 
        <div>
         <Footer/>

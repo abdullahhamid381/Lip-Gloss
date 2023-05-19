@@ -1,11 +1,15 @@
 import React from 'react'
 import './Homescss/Team.scss'
+import six from '../..//components/assest/6.jpg'
+import seven from '../..//components/assest/7.jpg'
+import eight from '../..//components/assest/8.jpg'
+import video from '../../components/assest/video.mov'
 const Team = () => {
     return (
         <div className='team-parent'>
             <div className='team-img-text-first' data-aos="fade-up">
                 <div>
-                    <img src="./images/6.webp" alt="" />
+                    <img src={six} alt="" />
                 </div>
                 <div className='content'>
                     <div>
@@ -28,14 +32,14 @@ const Team = () => {
                     </div>
                 </div>
                 <div>
-                    <img src="./images/7.webp" alt="" />
+                    <img src={seven} alt="" />
                 </div>
             </div>
 
 
             <div className='team-img-text-first'data-aos="fade-left">
                 <div>
-                    <img src="./images/8.webp" alt="" />
+                    <img src={eight} alt="" />
                 </div>
                 <div className='content'>
                     <div>
@@ -47,7 +51,9 @@ const Team = () => {
             </div>
 
 
-          
+          <div style={{padding:'80px 0'}} data-aos="fade-down">
+            <video src={video} style={{width:'100%'}} controls autoPlay={true}></video>
+          </div>
         </div>
     )
 }

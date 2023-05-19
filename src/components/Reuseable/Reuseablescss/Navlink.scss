@@ -38,6 +38,8 @@
       .menu-bar ul li {
         /* width: 120px; */
         padding: 0 20px;
+        color: black;
+        font-weight: bolder;
         /* text-align: center; */
         position: relative;
         @include md{
