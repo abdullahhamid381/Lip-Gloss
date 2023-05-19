@@ -25,9 +25,7 @@ const Home = () => {
         <div >
             <Navbar/>
         </div>
-        <div >
-            <Navlink/>
-        </div>
+       
         <div >
             <Banner/>
         </div>

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { Fragment, useEffect } from "react";
 import {
   MDBContainer,
   MDBNavbar,
@@ -12,6 +12,7 @@ import { getCartTotal } from "../../features/cartSlice";
 import { BiShoppingBag } from 'react-icons/bi'
 import './Reuseablescss/Navbar.scss'
 import logo from '../assest/logo.png'
+import Navlink from "./Navlink";
 export default function App() {
   const { cart, totalQuantity } = useSelector((state) => state.allCart);
 
@@ -21,7 +22,8 @@ export default function App() {
   }, [cart]);
 
   return (
-    <div className="navbar-paretn">
+    <div className="main-parent-navbar">
+ <div className="navbar-paretn">
       <div className="empty">
 
       </div>
@@ -54,6 +56,10 @@ export default function App() {
           </Link>
         </div>
       </div>
+     
     </div>
+    <Navlink/>
+    </div>
+   
   );
 }

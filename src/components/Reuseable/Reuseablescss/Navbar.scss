@@ -2,87 +2,89 @@
 body{
     scroll-behavior: smooth;
 }
-.navbar-paretn{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 10px 0;
-    grid-template-areas: "one two three";
-    border-bottom: 1px solid #80808026;
-    @include lg{
-        grid-template-areas: "two three";
-        grid-template-columns: 1fr 1fr;
-    }
-   
-    .empty{
-        grid-area: one;
-    }
-
- 
-    .logo{
-     
-        width: 50%;
-        margin: auto;
-
-        grid-area: two;
-        img{
-            width: 100%;
-            
-            
+.main-parent-navbar{
+    .navbar-paretn{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 10px 0;
+        grid-template-areas: "one two three";
+        border-bottom: 1px solid #80808026;
+        @include lg{
+            grid-template-areas: "two three";
+            grid-template-columns: 1fr 1fr;
         }
        
-    }
-    .search-cart-parent{
-        grid-area: three;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 15px;
-        .search-parent{
-            .search-bar{
-                display: flex;
-                align-items: center;
+        .empty{
+            grid-area: one;
+        }
+    
+     
+        .logo{
+         
+            width: 50%;
+            margin: auto;
+    
+            grid-area: two;
+            img{
+                width: 100%;
                 
-                width: 40px;
-                border-radius: 100px;
-            
-                transition: .48s;
-        
-                input,::placeholder{
-                    outline: none;
-                    border: none;
-                    background: none;
-                    color: rgb(0, 0, 0);
-                }
-               
-                .search-box{
-                    padding: 10px 14px;
                 
-                    border-radius: 50%;
-                }
-                .search-input{
-                    width: 100%;
-                    padding: 10px;
+            }
+           
+        }
+        .search-cart-parent{
+            grid-area: three;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            .search-parent{
+                .search-bar{
+                    display: flex;
+                    align-items: center;
                     
+                    width: 40px;
+                    border-radius: 100px;
+                
+                    transition: .48s;
+            
+                    input,::placeholder{
+                        outline: none;
+                        border: none;
+                        background: none;
+                        color: rgb(0, 0, 0);
+                    }
+                   
+                    .search-box{
+                        padding: 10px 14px;
+                    
+                        border-radius: 50%;
+                    }
+                    .search-input{
+                        width: 100%;
+                        padding: 10px;
+                        
+                    }
                 }
-            }
-            #chkbox{
-                display: none;
-            }
-            #chkbox:checked~ .search-bar{
-        width: 200px;
-        background: whitesmoke;
-            }
-        
-            #chkbox:checked~ .search-input{
-                border: 1px solid black;
-               
+                #chkbox{
+                    display: none;
+                }
+                #chkbox:checked~ .search-bar{
+            width: 200px;
+            background: whitesmoke;
+                }
+            
+                #chkbox:checked~ .search-input{
+                    border: 1px solid black;
+                   
+                }
             }
         }
+        .icon{
+            color: rgb(0, 0, 0);
+            font-weight: 400;
+            font-size: 22px;
+        }
+      
     }
-    .icon{
-        color: rgb(0, 0, 0);
-        font-weight: 400;
-        font-size: 22px;
-    }
-  
 }
