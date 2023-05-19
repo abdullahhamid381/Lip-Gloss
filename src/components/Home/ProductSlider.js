@@ -21,8 +21,8 @@ const ProductSlider = ({data,title,para}) => {
 
         <div className="product-slider-parent">
             <div className="heading">
-                <h3>{title}</h3>
-                <p>{para}</p>
+                <h3 style={{color:'black'}}>{title}</h3>
+                <p style={{color:'black'}}>{para}</p>
             </div>
          
                 <Swiper
@@ -47,10 +47,10 @@ const ProductSlider = ({data,title,para}) => {
                                     </div>
                                   <div style={{margin:'10px 0'}}>
                                   <div data-aos='fade-left'>
-                                        <p className="title">{title}</p>
+                                        <p className="title" style={{color:'white',fontSize:'18px'}}>{title}</p>
                                     </div>
                                     <div data-aos='fade-right'>
-                                        <h5 className="price">{price}</h5>
+                                        <h5 className="price" style={{color:'white',fontSize:'18px'}}>{price}</h5>
                                     </div>
                                   </div>
                                 </SwiperSlide>

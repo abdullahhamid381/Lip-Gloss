@@ -9,7 +9,7 @@ const Celebration = () => {
                 return(
                     <div className='party-detail' id={item.id}>
                         <div className='icon' data-aos='fade-up'>
-                            <span style={{color:'#FFCAD0'}}>{item.icon}</span>
+                            <span style={{color:'white'}}>{item.icon}</span>
                         </div>
                         <div className='title' data-aos='fade-left'>
                             <h5>{item.title}</h5>
