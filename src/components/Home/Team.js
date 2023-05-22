@@ -7,7 +7,7 @@ import video from '../../components/assest/video.mov'
 const Team = () => {
     return (
         <div className='team-parent'>
-            <div className='team-img-text-first' data-aos="fade-up">
+            <div className='team-img-text-first' >
                 <div>
                     <img src={six} alt="" />
                 </div>
@@ -22,7 +22,7 @@ const Team = () => {
 
 
 
-            <div className='team-img-text-second'data-aos="fade-right">
+            <div className='team-img-text-second'>
                 
                 <div className='content'>
                     <div>
@@ -37,7 +37,7 @@ const Team = () => {
             </div>
 
 
-            <div className='team-img-text-first'data-aos="fade-left">
+            <div className='team-img-text-first'>
                 <div>
                     <img src={eight} alt="" />
                 </div>
@@ -51,7 +51,7 @@ const Team = () => {
             </div>
 
 
-          <div style={{padding:'80px 0'}} data-aos="fade-down">
+          <div style={{padding:'80px 0'}} >
             <video src={video} style={{width:'100%'}} controls autoPlay={true}></video>
           </div>
         </div>

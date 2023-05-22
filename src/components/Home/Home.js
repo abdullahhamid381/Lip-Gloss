@@ -46,13 +46,13 @@ const Home = () => {
         </div>
         <div>
         <ProductSlider data={items.filter(item=> item.cata === 'collection second')} title={'CHECKOUT OUR BEST SELLERS'} para={'Our #LNPBabes Rave About These Products'}/>
-        </div>
+        </div> 
         <div>
             <Part first={five} second={six} />
-        </div> 
+        </div>
        <div>
         <Footer/>
-       </div>
+       </div> 
     </div>
   )
 }

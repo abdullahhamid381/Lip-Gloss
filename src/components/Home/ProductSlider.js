@@ -46,10 +46,10 @@ const ProductSlider = ({data,title,para}) => {
                                         <img src={img} alt="" />
                                     </div>
                                   <div style={{margin:'10px 0'}}>
-                                  <div data-aos='fade-left'>
+                                  <div data-aos='fade-up'>
                                         <p className="title" style={{color:'white',fontSize:'18px'}}>{title}</p>
                                     </div>
-                                    <div data-aos='fade-right'>
+                                    <div data-aos='fade-down'>
                                         <h5 className="price" style={{color:'white',fontSize:'18px'}}>{price}</h5>
                                     </div>
                                   </div>

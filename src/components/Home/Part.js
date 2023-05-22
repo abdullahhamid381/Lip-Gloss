@@ -13,8 +13,8 @@ const Part = ({first,second,third}) => {
                       
                     </div>
                     <div style={{overflow:'hidden',boxSizing:'border-box'}} >
-                        <img src={second} alt="" className='product-gift-img' data-aos="fade-left" style={{boxShadow:'0px 0px 5px 0px #00000042'}}/>
-                        <img src={third} alt="" className='product-gift-img' data-aos="fade-right" style={{boxShadow:'0px 0px 5px 0px #00000042'}}/>
+                        <img src={second} alt="" className='product-gift-img' data-aos="fade-down" style={{boxShadow:'0px 0px 5px 0px #00000042'}}/>
+                        <img src={third} alt="" className='product-gift-img' data-aos="fade-up" style={{boxShadow:'0px 0px 5px 0px #00000042'}}/>
                     </div>
                 </div>
 
