@@ -28,7 +28,7 @@ export default function App() {
     
     <div className="logo" >
     <Link to='/' style={{border:'none',textDecoration:'none'}}>
-        <img src={logo} alt="" />
+       <h1>ORGANIC</h1>
         </Link>
       </div>
    

@@ -5,13 +5,13 @@ const Team = () => {
         <div className='team-parent'>
             <div className='team-img-text-first'>
                 <div>
-                    <img src="./images/6.webp" alt="" />
+                    <img src="./images/thirdh.jpg" alt="" />
                 </div>
                 <div className='content'>
                     <div>
                     <h3>
-                    GIRL,S NIGHT</h3>
-                    <p>Gather your girlfriends for a night of making lipsticks, partying, and fun. Escape the stress-filled everyday and relax in our colorful, casual atmosphere. Sip your favorite beverage and dance to the music while our experienced artists help you create your own personal masterpiece.</p>
+                    Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum accusamus beatae molestias officiis est nisi et blanditiis rem deleniti amet! Eum vitae ut, modi sequi natus maxime veniam, mollitia tenetur asperiores vel corrupti repudiandae ea, quis similique quam voluptatem ab explicabo dolorem esse quibusdam est adipisci! Reiciendis aliquid soluta natus?</p>
                     </div>
                 </div>
             </div>
@@ -23,25 +23,25 @@ const Team = () => {
                 <div className='content'>
                     <div>
                     <h3>
-                    BIRTHDAY PARTIES</h3>
-                    <p>Set your creativity free with a new twist on fun. Our professional mixologists guides each guest to create a finished work of art they can proudly use and call their own.</p>
+                    Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem corrupti nulla at distinctio eos optio culpa temporibus commodi perspiciatis, dicta, vel quaerat numquam laborum provident sed cum nihil molestiae dolor vero consequuntur! Quisquam cum perferendis recusandae eligendi officia mollitia distinctio similique ipsum repellat dignissimos culpa, maxime doloribus sapiente. Error, tenetur!</p>
                     </div>
                 </div>
                 <div>
-                    <img src="./images/7.webp" alt="" />
+                    <img src="./images/firsth.jpg" alt="" />
                 </div>
             </div>
 
 
             <div className='team-img-text-first'>
                 <div>
-                    <img src="./images/8.webp" alt="" />
+                    <img src="./images/secondh.jpg" alt="" />
                 </div>
                 <div className='content'>
                     <div>
                     <h3>
-                    BRIDAL SHOWERS</h3>
-                    <p>Celebrate with your sisterhood and create a lasting memory before your big day. It,s the perfect plan for your wedding party. Mix and sip with your sisters in style. Book a private party or join one of ours.</p>
+                    Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi debitis ex dolorum quibusdam. Dolores reiciendis porro, quo autem animi obcaecati officiis. Soluta nisi facere in obcaecati officiis asperiores cum! Exercitationem ipsum nobis sit, natus quia, cupiditate qui porro dolor blanditiis beatae quisquam veniam similique quae quis eveniet voluptate. Distinctio, doloremque!</p>
                     </div>
                 </div>
             </div>

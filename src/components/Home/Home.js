@@ -30,21 +30,20 @@ const Home = () => {
             <Banner/>
         </div>
         <div>
-            <Celebration/>
+            {/* <Celebration/> */}
         </div>
          <div>
             <Part first={two} second={three} third={four}/>
         </div>
         <div>
-            <ProductSlider data={items.filter(item=> item.cata === 'collection first')} title={'CHECKOUT OUR BEST SELLERS'} para={'Our #LNPBabes Rave About These Products'}/>
-            <ProductSlider data={items.filter(item=> item.cata === 'collection second')} title={'CHECKOUT OUR BEST SELLERS'} para={'Our #LNPBabes Rave About These Products'}/>
+            <ProductSlider data={items.filter(item=> item.cata === 'collection first')} />
        
         </div>
         <div>
             <Team/>
         </div>
         <div>
-            <Part first={five} second={six} third={seven}/>
+            {/* <Part first={five} second={six} third={seven}/> */}
         </div> 
        <div>
         <Footer/>

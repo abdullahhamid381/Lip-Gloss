@@ -48,12 +48,12 @@ const Navlink = () => {
       </li>
      
     
-      <li>
+      {/* <li>
         <a href="https://final--fluffy-mochi-9598b3.netlify.app/">
           CREATE YOUR LIPPIE
         </a>
       
-      </li>
+      </li> */}
      
       <li>
         <Link to='/about'>ABOUT US</Link>

@@ -17,11 +17,10 @@ const Footer = () => {
               <ul>
                 <li> <a> <span style={{marginRight:'5px'}}>
                   <CiLocationOn />
-                </span > 1811 Sardis Rd N Suite 204,
-                  Charlotte, NC, 28270</a></li>
-                <li><span></span><a><span style={{marginRight:'5px'}}> <BsTelephone /> </span> (980) 292-1002</a></li>
+                </span > xxx-xxxxx</a></li>
+                <li><span></span><a><span style={{marginRight:'5px'}}> <BsTelephone /> </span> xxx-xxxxx</a></li>
                 <li><a> <span style={{marginRight:'5px'}}><AiOutlineMail /> </span>
-                  hello@lipnpour.com</a></li>
+                 xxx-xxxxx</a></li>
                 <li style={{marginTop:'20px'}}><a  style={{fontSize:'15px'}}>Stay Connected</a></li>
                 <div style={{display:'flex',gap:'15px'}}>
                   <span style={{color:'white'}}><AiFillFacebook/></span>
@@ -36,7 +35,7 @@ const Footer = () => {
               <ul>
                 <li><a href="#">Home</a></li>
                 <li><Link to='/shop'>Shop</Link></li>
-                <li><a href="https://final--fluffy-mochi-9598b3.netlify.app/">Create your lippe</a></li>
+               
                 <li><Link to='/about'>About</Link></li>
                
               </ul>
@@ -44,9 +43,9 @@ const Footer = () => {
             <div className="footer-col">
               <h4>Products</h4>
               <ul>
-                <li><a>Islans Escape</a></li>
-                <li><a>Peach Passion</a></li>
-                <li><a>Lip gloss</a></li>
+                <li><a>Mct</a></li>
+                <li><a>Mustrad Oil</a></li>
+                <li><a>Cocunet Oil</a></li>
               
               </ul>
             </div>
@@ -63,7 +62,7 @@ const Footer = () => {
 
       </footer>
       <div>
-        <center><h4 style={{ color: 'white', background: '#FFFFFF', padding: '10px  0 10px 0', margin: '0', fontWeight: 'lighter', fontSize: '13px' }}>Copyright All Rights Reserved Lip Gloss</h4></center>
+        <center><h4 style={{ color: 'white', background: '#530113', padding: '10px  0 10px 0', margin: '0', fontWeight: 'lighter', fontSize: '13px' }}>Copyright All Rights Reserved Lip Gloss</h4></center>
       </div>
     </Fragment>
   )

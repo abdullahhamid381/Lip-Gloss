@@ -8,12 +8,12 @@ const Part = ({first,second,third}) => {
     <div className='popular-parent'>
                 <div className='product-gift-grid'>
                     <div style={{overflow:'hidden',boxSizing:'border-box'}}>
-                        <img src={first} alt="" className='product-gift-img' />
+                        <img src='./images/firsth.jpg' alt="" className='product-gift-img' />
                       
                     </div>
                     <div style={{overflow:'hidden',boxSizing:'border-box'}}>
-                        <img src={second} alt="" className='product-gift-img' />
-                        <img src={third} alt="" className='product-gift-img' />
+                        <img src='./images/secondh.jpg' alt="" className='product-gift-img' />
+                        <img src='./images/thirdh.jpg' alt="" className='product-gift-img' />
                     </div>
                 </div>
 
