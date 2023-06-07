@@ -1,64 +1,42 @@
-.product-slider-parent {
-  max-width: 1200px;
-  width: 100%;
-  margin: auto;
-  padding: 25px 0;
-  .heading {
-    h3 {
-      font-size: 18px;
-      text-align: center;
-    }
-    p {
-      font-size: 13px;
-      text-align: center;
-    }
-  }
-  .swiper {
+.product-slider-parent{
+    max-width: 1200px;
     width: 100%;
-    height: 100%;
-  }
-
-  .swiper-slide {
-    .title {
-      margin: 0;
-      text-align: center;
-      font-size: 13px;
-    }
-    .price {
-      text-align: center;
-      font-size: 13px;
-      font-weight: 500;
-    }
-    .flex__ {
-      margin: 0px 0px;
-      display: flex;
-      justify-content: space-between;
-      padding: 10px 15px;
-      h3 {
-        font-size: 18px;
-        margin: 0;
-        font-weight: 500;
-        color: black;
-      }
-      .end {
-        font-family: "Universe";
-        font-size: 18px;
-        margin: 0;
-        font-weight: 500;
-        color: black;
-      }
-      .start {
-        p {
-          margin: 0;
+    margin: auto;
+    padding: 40px 0;
+    .heading{
+        h3{
+            font-size: 18px;
+            text-align: center;
         }
-      }
+        p{
+            font-size: 13px;
+            text-align: center;
+        }
     }
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+      
+      .swiper-slide {
+      .title{
+        margin: 0;
+        text-align: center;
+        font-size: 13px;
+      }
+      .price{
+        text-align: center;
+        font-size: 13px;
+        font-weight: bolder;
+      }
+      }
+      
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+     
+      
 }

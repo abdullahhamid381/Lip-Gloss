@@ -19,7 +19,7 @@ const ProductSlider = ({data,title,para}) => {
     const navigate =  useNavigate()
     return (
 
-        <div className="product-slider-parent" style={{paddingTop:'50px'}}>
+        <div className="product-slider-parent">
             <div className="heading">
                 <h3>{title}</h3>
                 <p>{para}</p>
@@ -40,7 +40,7 @@ const ProductSlider = ({data,title,para}) => {
                         const {id,title,img,price} = item
                         return (
 
-                            <div >
+                            <div>
                                 <SwiperSlide onClick={()=> navigate(`/product/${id}`)}>
                                     <div >
                                         <img src={img} alt="" />

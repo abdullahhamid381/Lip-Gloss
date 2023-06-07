@@ -1,9 +1,9 @@
 import { BsPencil } from 'react-icons/bs'
 import { HiOutlineCake } from 'react-icons/hi'
 import { AiFillHeart } from 'react-icons/ai'
-import fp from './components/assest/fp.jpg'
-import sp from './components/assest/sp.jpg'
-import t9 from './components/assest/t9.jpg'
+import firstp from './components/assest/firstp.webp'
+import secondp from './components/assest/secondp.webp'
+import thirdp from './components/assest/thirdp.webp'
 import kk from './components/assest/kk.webp'
 import oo from './components/assest/oo.webp'
 import ll from './components/assest/ll.webp'
@@ -30,8 +30,8 @@ export const party = [
 ]
 export default [
   {
-    img: fp,
-    title: 'MCT PRODUCT',
+    img: firstp,
+    title: 'Smudge Me Not Collection',
     cata: 'collection first',
     price: 200,
     id: 1,
@@ -46,8 +46,8 @@ export default [
     ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
   },
   {
-    img: sp,
-    title: 'MUSTRAD OIL',
+    img: secondp,
+    title: 'Smudge Me Not Collection',
     cata: 'collection first',
     price: 200,
     id: 2,
@@ -63,8 +63,8 @@ export default [
 
   },
   {
-    img: t9,
-    title: 'COCUNET OIL',
+    img: thirdp,
+    title: 'Smudge Me Not Collection',
     quantity: 1,
     price: 200,
     id: 3,
@@ -78,56 +78,56 @@ export default [
     use: 'Usage: Apply liberally to lips morning and evening, and as often as needed throughout the day',
     ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
   },
-  // {
-  //   img: kk,
-  //   title: 'Smudge Me Not Collection',
-  //   price: 200,
-  //   id: 4,
-  //   cata: 'collection second',
-  //   stock: 'In Stock',
-  //   demand: 'ASK ABOUT THIS PRODUCT',
-  //   what: 'Peppermint-scented, luxuriously textured balm re-hydrates, pampers, and helps repair and nurture lips, transforming them to a new level of softness, smoothness and suppleness. It can be worn alone or over lip color for a dewy, more youthful-looking pout.',
-  //   quantity: 1,
-  //   pointfirst: 'Peppermint scented luxurious balm',
-  //   pointsecond: 'Help repair and nurture lips',
-  //   pointthird: 'Leaves lips soft, supple and smooth',
-  //   use: 'Usage: Apply liberally to lips morning and evening, and as often as needed throughout the day',
-  //   ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
+  {
+    img: kk,
+    title: 'Smudge Me Not Collection',
+    price: 200,
+    id: 4,
+    cata: 'collection second',
+    stock: 'In Stock',
+    demand: 'ASK ABOUT THIS PRODUCT',
+    what: 'Peppermint-scented, luxuriously textured balm re-hydrates, pampers, and helps repair and nurture lips, transforming them to a new level of softness, smoothness and suppleness. It can be worn alone or over lip color for a dewy, more youthful-looking pout.',
+    quantity: 1,
+    pointfirst: 'Peppermint scented luxurious balm',
+    pointsecond: 'Help repair and nurture lips',
+    pointthird: 'Leaves lips soft, supple and smooth',
+    use: 'Usage: Apply liberally to lips morning and evening, and as often as needed throughout the day',
+    ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
 
-  // },
-  // {
-  //   img: oo,
-  //   title: 'Smudge Me Not Collection',
-  //   price: 200,
-  //   id: 5,
-  //   cata: 'collection second',
-  //   stock: 'In Stock',
-  //   demand: 'ASK ABOUT THIS PRODUCT',
-  //   quantity: 1,
-  //   what: 'Peppermint-scented, luxuriously textured balm re-hydrates, pampers, and helps repair and nurture lips, transforming them to a new level of softness, smoothness and suppleness. It can be worn alone or over lip color for a dewy, more youthful-looking pout.',
-  //   pointfirst: 'Peppermint scented luxurious balm',
-  //   pointsecond: 'Help repair and nurture lips',
-  //   pointthird: 'Leaves lips soft, supple and smooth',
-  //   use: 'Usage: Apply liberally to lips morning and evening, and as often as needed throughout the day',
-  //   ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
-  // },
+  },
+  {
+    img: oo,
+    title: 'Smudge Me Not Collection',
+    price: 200,
+    id: 5,
+    cata: 'collection second',
+    stock: 'In Stock',
+    demand: 'ASK ABOUT THIS PRODUCT',
+    quantity: 1,
+    what: 'Peppermint-scented, luxuriously textured balm re-hydrates, pampers, and helps repair and nurture lips, transforming them to a new level of softness, smoothness and suppleness. It can be worn alone or over lip color for a dewy, more youthful-looking pout.',
+    pointfirst: 'Peppermint scented luxurious balm',
+    pointsecond: 'Help repair and nurture lips',
+    pointthird: 'Leaves lips soft, supple and smooth',
+    use: 'Usage: Apply liberally to lips morning and evening, and as often as needed throughout the day',
+    ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
+  },
 
-  // {
-  //   img: ll,
-  //   title: 'Smudge Me Not Collection',
-  //   price: 200,
-  //   id: 6,
-  //   stock: 'In Stock',
-  //   demand: 'ASK ABOUT THIS PRODUCT',
-  //   what: 'Peppermint-scented, luxuriously textured balm re-hydrates, pampers, and helps repair and nurture lips, transforming them to a new level of softness, smoothness and suppleness. It can be worn alone or over lip color for a dewy, more youthful-looking pout.',
-  //   pointfirst: 'Peppermint scented luxurious balm',
-  //   pointsecond: 'Help repair and nurture lips',
-  //   quantity: 1,
-  //   pointthird: 'Leaves lips soft, supple and smooth',
-  //   use: 'Usage: Apply liberally to lips morning and evening, and as often as needed throughout the day',
-  //   ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
-  //   cata: 'collection second',
-  // },
+  {
+    img: ll,
+    title: 'Smudge Me Not Collection',
+    price: 200,
+    id: 6,
+    stock: 'In Stock',
+    demand: 'ASK ABOUT THIS PRODUCT',
+    what: 'Peppermint-scented, luxuriously textured balm re-hydrates, pampers, and helps repair and nurture lips, transforming them to a new level of softness, smoothness and suppleness. It can be worn alone or over lip color for a dewy, more youthful-looking pout.',
+    pointfirst: 'Peppermint scented luxurious balm',
+    pointsecond: 'Help repair and nurture lips',
+    quantity: 1,
+    pointthird: 'Leaves lips soft, supple and smooth',
+    use: 'Usage: Apply liberally to lips morning and evening, and as often as needed throughout the day',
+    ingredients: 'Ingredients: Bis-Diglyceryl Polyacyladipate-2, Disostearyl Malate, Limnanthes Alba Seed Oil, Simmondsia Chinensis Seed oil, Caprylic/Capric Triglyceride, Candelilla Cera, Microcrystalline Wax, Ozokerite, Olive Seed Oil, Squalane, Tocopheryl Acetate, Mentha Piperita Oil, Phenoxyethanol.',
+    cata: 'collection second',
+  },
 
 
 ]

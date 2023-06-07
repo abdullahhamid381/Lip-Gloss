@@ -1,6 +1,6 @@
-import React from "react";
-import "./Reuseablescss/Navlink.scss";
-import { Link } from "react-router-dom";
+import React from 'react'
+import './Reuseablescss/Navlink.scss'
+import { Link } from 'react-router-dom'
 const Navlink = () => {
   return (
    <div className='nav-link-parent'>
@@ -48,7 +48,12 @@ const Navlink = () => {
       </li>
      
     
-     
+      <li>
+        <a href="https://final--fluffy-mochi-9598b3.netlify.app/">
+          CREATE YOUR LIPPIE
+        </a>
+      
+      </li>
      
       <li>
         <Link to='/about'>ABOUT US</Link>
@@ -60,4 +65,5 @@ const Navlink = () => {
    </div>
   )
 }
+
 export default Navlink

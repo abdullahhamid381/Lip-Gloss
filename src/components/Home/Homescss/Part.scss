@@ -1,66 +1,71 @@
-@import "../../Media/media.scss";
-.popular-parent {
-  .product-gift-grid {
-    display: grid;
-    padding: 50px 0 0 0;
-    grid-template-columns: 1fr 1fr;
+@import '../../Media/media.scss';
+.popular-parent{
+    .product-gift-grid{
+        display: grid;
+       padding: 50px 0 0 0;
+        grid-template-columns: 1fr 1fr;
+   
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+       @include lg{
+        grid-template-columns: 1fr;
+        margin: auto;
+       }
+        gap: 20px;
+       
+        .product-gift-img{
+            padding: 10px 0;
+            overflow: hidden;
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: 10px;
+            transition: 0.8s;
+           
+        }
 
-    max-width: 1200px;
-    width: 100%;
-    margin: auto;
-    @include lg {
-      grid-template-columns: 1fr;
-      margin: auto;
+        .product-gift-img:hover{
+        opacity: 0.7;
+      
+        cursor: pointer;
+        transform: scale(1.1);
+        overflow: hidden;
+        box-sizing: border-box;
+        }
     }
-    gap: 20px;
+    .conact{
+        position: relative;
+        padding: 100px 0 0 0;
+     
+        .contact-call{
+            position: absolute;
+            top: 40px;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            h1{
+                color: white;
+                font-size: 48px;
+                padding: 10px 0;
+             
 
-    .product-gift-img {
-      padding: 10px 0;
-      overflow: hidden;
-      width: 100%;
-      box-sizing: border-box;
-      border-radius: 10px;
-      transition: 0.8s;
+            }
+            p{
+               
+                color: white;
+                font-size: 18px;
+                font-weight: bolder;
+            }
+            h6{
+               
+                color: white;
+                font-size: 18px;
+            }
+        }
     }
-
-    .product-gift-img:hover {
-      opacity: 0.7;
-
-      cursor: pointer;
-      transform: scale(1.1);
-      overflow: hidden;
-      box-sizing: border-box;
-    }
-  }
-  .conact {
-    position: relative;
-    padding: 100px 0 0 0;
-
-    .contact-call {
-      position: absolute;
-      top: 40px;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-
-      h1 {
-        color: white;
-        font-size: 48px;
-        padding: 10px 0;
-      }
-      p {
-        color: white;
-        font-size: 18px;
-        font-weight: 500;
-      }
-      h6 {
-        color: white;
-        font-size: 18px;
-      }
-    }
-  }
 }

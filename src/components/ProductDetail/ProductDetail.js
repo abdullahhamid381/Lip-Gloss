@@ -15,7 +15,7 @@ import {
 } from "../../features/cartSlice";
 import Footer from '../Reuseable/Footer'
 import { productslider } from '../../productData'
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector ,useDispatch} from 'react-redux'
 import { addToCart } from '../../features/cartSlice'
 const ProductDetail = () => {
     const items = useSelector((state) => state.allCart.items);
@@ -37,13 +37,14 @@ const ProductDetail = () => {
         use,
         ingredients,
     } = Filterfullproduct[0];
-    window.scrollTo(0, 0)
+
     return (
         <div>
             <div>
                 <Navbar />
             </div>
             <div>
+                <Navlink />
             </div>
             <div>
                 <div className='product-detail-parent'>

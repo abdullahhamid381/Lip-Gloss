@@ -1,108 +1,114 @@
-@import "../../Media/media.scss";
-.product-grid-detail {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 1200px;
-  width: 100%;
-  margin: auto;
-  padding: 40px 0;
-  @include lg {
-    grid-template-columns: 1fr !important;
-  }
-  .img-div {
-    width: 80%;
+ @import '../../Media/media.scss';
+ .product-grid-detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    width: 100%;
     margin: auto;
-    img {
-      width: 100%;
-      border-radius: 4px;
+    padding: 40px 0;
+    @include lg{
+        grid-template-columns: 1fr  !important;
     }
-  }
-  .product-detail {
-    @include lg {
-      margin: auto;
-    }
-    h1 {
-      font-size: 1.7rem;
-      font-weight: 400;
-      margin: 0%;
-    }
-    p {
-      color: rgb(68, 121, 0);
-      margin: 0;
-      padding: 10px 0;
-    }
-    .price {
-      font-size: 22px;
-      font-weight: 600;
-    }
-    .demand {
-      border-bottom: 1px solid #e7dae2;
-      cursor: pointer;
-    }
-    button {
-      border: none;
-      color: white;
-      background: #f3b2bd;
-      width: 30%;
-      padding: 5px 0;
-      margin: 20px 0 30px 0;
-      border-radius: 4px;
-    }
-    .icon-flex {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      .icon-parent {
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        .icons {
-          font-size: 18px;
-          font-weight: 400 !important;
+    .img-div{
+        width: 80%;
+        margin: auto;
+        img{
+            width: 100%;
+            border-radius: 4px;
         }
-        .icons-title {
-          font-size: 13px;
-          font-weight: 400 !important;
+    }
+    .product-detail{
+        @include lg{
+            margin: auto;
         }
-      }
+        h1{
+            font-size: 23px;
+            font-weight: 400;
+            margin: 0%;
+        }
+        p{
+            color: rgb(68, 121, 0);
+            font-size: 13px;
+            margin: 0;
+            padding: 10px 0;
+        }
+        .price{
+            font-size: 22px;
+            font-weight: 600;
+           
+        }
+        .demand{
+            font-size: 13px;
+            border-bottom: 1px solid black;
+            cursor: pointer;
+            
+        }
+        button{
+            border: none;
+            color: white;
+            background: #F3B2BD;
+            width: 30%;
+            padding: 5px 0;
+           margin:20px 0 30px 0;
+            border-radius: 4px;
+        }
+        .icon-flex{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .icon-parent{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                .icons{
+                    font-size: 18px;
+                    font-weight: 400 !important;
+                }
+                .icons-title{
+                     font-size: 13px;
+                    font-weight: 400 !important;
+                }
+            }
+        }
+        .people{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 20px 0;
+            .icon{
+                color: #F3B2BD;
+                font-size: 24px;
+            }
+            .tit{
+                font-size: 13px;
+            }
+        }
     }
-    .people {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin: 20px 0;
-      .icon {
-        color: #f3b2bd;
-        font-size: 24px;
-      }
-      .tit {
-        font-size: 13px;
-      }
-    }
-  }
 }
-.detail {
-  max-width: 1070px;
-  width: 100%;
-  margin: auto;
-  @include lg {
-    width: 80%;
+.detail{
+    max-width: 1070px;
+    width: 100%;
     margin: auto;
-  }
-  .title {
-    font-size: 1.7rem;
-    border-bottom: 1px solid #e7dae2;
-    padding: 10px 0;
-  }
-  .what {
-    h1 {
-      font-size: 1.7rem;
-      font-weight: 500;
-      margin: 40px 0 20px 0;
+    @include lg{
+        width: 80%;
+        margin: auto;
     }
-    p {
+    .title{
+        font-size: 18px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.272);
+        padding: 10px 0;
     }
-    li {
+    .what{
+        h1{
+            font-size:13px;
+            font-weight: bolder;
+            margin: 40px 0 20px 0;
+        }
+        p{
+            font-size: 13px;
+        }
+        li{
+            font-size: 13px;
+        }
     }
-  }
 }

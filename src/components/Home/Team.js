@@ -5,13 +5,13 @@ const Team = () => {
         <div className='team-parent'>
             <div className='team-img-text-first'>
                 <div>
-                    <img src="./images/thirdh.jpg" alt="" />
+                    <img src="./images/6.webp" alt="" />
                 </div>
                 <div className='content'>
                     <div>
                     <h3>
-                    Lorem, ipsum.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est unde, consectetur minima adipisci reiciendis sapiente vero quo consequuntur expedita, accusantium in rerum officiis commodi pariatur fugiat atque autem? Repellendus libero at, molestiae ad eius perspiciatis aperiam sit laudantium, minus tempore dolores nam omnis cupiditate blanditiis tenetur officia praesentium, deleniti animi?</p>
+                    GIRL,S NIGHT</h3>
+                    <p>Gather your girlfriends for a night of making lipsticks, partying, and fun. Escape the stress-filled everyday and relax in our colorful, casual atmosphere. Sip your favorite beverage and dance to the music while our experienced artists help you create your own personal masterpiece.</p>
                     </div>
                 </div>
             </div>
@@ -23,25 +23,25 @@ const Team = () => {
                 <div className='content'>
                     <div>
                     <h3>
-                    Lorem, ipsum.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi excepturi recusandae libero delectus veniam iure placeat impedit inventore assumenda nobis! Pariatur sequi ea iure doloremque quos ab molestias, labore incidunt a asperiores? Nesciunt expedita accusamus, qui impedit mollitia facilis id voluptate omnis minima modi velit veritatis cum quisquam debitis commodi?.</p>
+                    BIRTHDAY PARTIES</h3>
+                    <p>Set your creativity free with a new twist on fun. Our professional mixologists guides each guest to create a finished work of art they can proudly use and call their own.</p>
                     </div>
                 </div>
                 <div>
-                    <img src="./images/firsth.jpg" alt="" />
+                    <img src="./images/7.webp" alt="" />
                 </div>
             </div>
 
 
             <div className='team-img-text-first'>
                 <div>
-                    <img src="./images/secondh.jpg" alt="" />
+                    <img src="./images/8.webp" alt="" />
                 </div>
                 <div className='content'>
                     <div>
                     <h3>
-                    Lorem, ipsum.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ipsa dolorum! Asperiores provident iusto harum dolorum nesciunt doloremque architecto recusandae. Odio possimus beatae, deserunt atque et perspiciatis hic rerum sit odit. Earum atque quas cum laborum, blanditiis dignissimos numquam itaque repellendus doloremque, aliquid facilis! Tenetur libero tempora commodi animi sed.</p>
+                    BRIDAL SHOWERS</h3>
+                    <p>Celebrate with your sisterhood and create a lasting memory before your big day. It,s the perfect plan for your wedding party. Mix and sip with your sisters in style. Book a private party or join one of ours.</p>
                     </div>
                 </div>
             </div>
