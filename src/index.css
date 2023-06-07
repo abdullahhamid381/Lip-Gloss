@@ -1,4 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@300;400;500;600;700&display=swap");
+@font-face {
+  font-family: "Chocolates";
+  src: url(./font/TT\ Chocolates\ Light.otf);
+}
+@font-face {
+  font-family: "Universe";
+  src: url(./font/universe/Univers\ LT\ Std\ 47\ Light\ Condensed.otf);
+}
+h1,
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
+}
 * {
   box-sizing: border-box;
+  font-family: "Chocolates";
   margin: 0;
+}
+body {
+  background: #f8f1f4 !important;
+}
+.slider__item {
+  background: #fff;
+  border: 1px solid #e7dae2;
+  border-radius: 12px;
+  overflow: hidden;
 }

@@ -2,10 +2,12 @@ import React, { Fragment } from 'react'
 import './Reuseablescss/Footer.scss'
 import { FaFacebook, FaLinkedinIn } from 'react-icons/fa'
 import { BsInstagram } from 'react-icons/bs'
-import { AiOutlineTwitter,AiFillFacebook,AiOutlineInstagram,AiFillYoutube, AiOutlineMail } from 'react-icons/ai'
+import { AiOutlineTwitter, AiFillFacebook, AiOutlineInstagram, AiFillYoutube, AiOutlineMail } from 'react-icons/ai'
 import { CiLocationOn } from 'react-icons/ci'
-import { BsTelephone,BsPinterest } from 'react-icons/bs'
+import { BsTelephone, BsPinterest } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
+import tiktok from "../../assets/tiktok.png"
+import twitter from "../../assets/twitter.png"
 const Footer = () => {
   return (
     <Fragment>
@@ -17,10 +19,11 @@ const Footer = () => {
               <ul>
                 <li> <a> <span style={{marginRight:'5px'}}>
                   <CiLocationOn />
-                </span > xx-xxxxx</a></li>
-                <li><span></span><a><span style={{marginRight:'5px'}}> <BsTelephone /> </span> (xxx)xxx-xxxx</a></li>
+                </span > 1811 Sardis Rd N Suite 204,
+                  Charlotte, NC, 28270</a></li>
+                <li><span></span><a><span style={{marginRight:'5px'}}> <BsTelephone /> </span> (980) 292-1002</a></li>
                 <li><a> <span style={{marginRight:'5px'}}><AiOutlineMail /> </span>
-                  dummy@gmial.com</a></li>
+                  hello@lipnpour.com</a></li>
                 <li style={{marginTop:'20px'}}><a  style={{fontSize:'15px'}}>Stay Connected</a></li>
                 <div style={{display:'flex',gap:'15px'}}>
                   <span style={{color:'white'}}><AiFillFacebook/></span>
@@ -35,7 +38,7 @@ const Footer = () => {
               <ul>
                 <li><a href="#">Home</a></li>
                 <li><Link to='/shop'>Shop</Link></li>
-                
+                <li><a href="https://final--fluffy-mochi-9598b3.netlify.app/">Create your lippe</a></li>
                 <li><Link to='/about'>About</Link></li>
                
               </ul>
@@ -43,9 +46,9 @@ const Footer = () => {
             <div className="footer-col">
               <h4>Products</h4>
               <ul>
-                <li><a>MCT</a></li>
-                <li><a>MASTRUD OIL</a></li>
-                <li><a>COCUNET OIL</a></li>
+                <li><a>Islans Escape</a></li>
+                <li><a>Peach Passion</a></li>
+                <li><a>Lip gloss</a></li>
               
               </ul>
             </div>
@@ -58,12 +61,37 @@ const Footer = () => {
               </div>
             </div> */}
           </div>
+          <ul style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap', listStyle: 'none' }}>
+            <li>
+              {" "}
+              <Link to="/" style={{ color: '#393939' }}>
+                Home
+                {/* <i className="fas fa-caret-down" /> */}
+              </Link>
+            </li>
+            <li>
+              <Link to="/shop" style={{ color: '#393939' }}>
+                Shop
+                {/* <i className="fas fa-caret-down" /> */}
+              </Link>
+            </li>
+
+            <li>
+              <a href="https://final--fluffy-mochi-9598b3.netlify.app/" style={{ color: '#393939' }}>
+                Lip Viewer
+              </a>
+            </li>
+
+            <li>
+              <Link to="/about" style={{ color: '#393939' }}>About Us</Link>
+            </li>
+          </ul>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolore natus quidem nesciunt ab necessitatibus quam, porro in at laboriosam alias eius quibusdam mollitia tenetur similique nam animi! Maiores, dolorum.</p>
+          <p>© 2023 website name</p>
         </div>
 
       </footer>
-      <div>
-        <center><h4 style={{ color: 'white', background: '#530113', padding: '10px  0 10px 0', margin: '0', fontWeight: 'lighter', fontSize: '13px' }}>Copyright All Rights Reserved Lip Gloss</h4></center>
-      </div>
+
     </Fragment>
   )
 }

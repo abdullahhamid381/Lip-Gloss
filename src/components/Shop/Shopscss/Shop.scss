@@ -1,32 +1,53 @@
-@import '../../Media/media.scss';
-.product-shop-parent{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-width: 1200px;
+@import "../../Media/media.scss";
+.product-shop-parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 1200px;
+  width: 100%;
+  margin: 100px auto;
+  grid-gap: 1rem;
+
+  @include lg {
+    grid-template-columns: 1fr;
+    padding: 0 15px;
+  }
+
+  img {
     width: 100%;
-    margin: auto;
-    
-    @include lg{
-      grid-template-columns: 1fr;
+  }
+
+  .title {
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+  }
+  .price {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .flex__ {
+    margin: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    h3 {
+      font-size: 18px;
+      margin: 0;
+      font-weight: 500;
+      color: black;
     }
-   
-      img{
-        width: 100%;
-      }
-      
-      .title{
+    .end {
+      font-family: "Universe";
+      font-size: 18px;
+      margin: 0;
+      font-weight: 500;
+      color: black;
+    }
+    .start {
+      p {
         margin: 0;
-        text-align: center;
-        font-size: 13px;
       }
-      .price{
-        text-align: center;
-        font-size: 13px;
-        font-weight: bolder;
-      }
-      
-      
-      
-     
-      
+    }
+  }
 }

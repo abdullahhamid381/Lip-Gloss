@@ -1,6 +1,6 @@
-import React from 'react'
-import './Reuseablescss/Navlink.scss'
-import { Link } from 'react-router-dom'
+import React from "react";
+import "./Reuseablescss/Navlink.scss";
+import { Link } from "react-router-dom";
 const Navlink = () => {
   return (
    <div className='nav-link-parent'>
@@ -60,5 +60,4 @@ const Navlink = () => {
    </div>
   )
 }
-
 export default Navlink
