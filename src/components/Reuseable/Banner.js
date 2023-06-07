@@ -3,7 +3,7 @@ import './Reuseablescss/Banner.scss'
 const Banner = () => {
   return (
    <div className='banner-parent'>
-<img src="./images/banner.png" alt="" />
+<img src="./images/organic-banner.png" alt="" />
    </div>
   )
 }
